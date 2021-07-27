@@ -1,3 +1,10 @@
+.curso-main-container > .container
+  overflow: hidden
+.color-gris
+  background-color: $lightest-gray
+.color-gris-claro
+  background-color: lighten($black, 95%)
+  
 .bloque-texto-a
   &.color-primario
     background-color: lighten($color-primario, 35%)
@@ -42,12 +49,23 @@
       img
         max-width: 80px
 
+.bloque-texto-a
+  &.reverse
+    &:before
+      left: 0
+      right: 50%
 
+.bloque-texto-b
+  &.color-primario
+    &:before
+      background-color: lighten($color-primario, 35%)
 
+.tarjeta-icono-a
+  display: flex
+  align-items: center
+  margin-left: 40px
+  &__img
+    margin-left: -40px
+    max-width: 80px
+  &__texto
 
-
-
-
-
-  &.color-gris
-    background-color: $lightest-gray

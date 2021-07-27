@@ -67,11 +67,11 @@
           
           p.text-small.mb-0(numero="4" titulo="Importancia relativa") también denominada materialidad, hace énfasis en el reconocimiento, o no, de un hecho económico. Puede tener un efecto significativo en el proceso contable y en la toma de decisiones.
 
-          p.text-small.mb-0(numero="4" titulo="Compensación") una entidad no compensará activos con pasivos o ingresos con gastos a menos que así lo requiera o permita una NIIF.
+          p.text-small.mb-0(numero="5" titulo="Compensación") una entidad no compensará activos con pasivos o ingresos con gastos a menos que así lo requiera o permita una NIIF.
 
-          p.text-small.mb-0(numero="4" titulo="Información comparativa") se realiza el análisis con respecto al periodo anterior. Debe incluir tanto datos cuantitativos como información cualitativa. 
+          p.text-small.mb-0(numero="6" titulo="Información comparativa") se realiza el análisis con respecto al periodo anterior. Debe incluir tanto datos cuantitativos como información cualitativa. 
 
-          p.text-small.mb-0(numero="4" titulo="Uniformidad") hace referencia a la aplicación de normas, políticas y principios en el reconocimiento de hechos económicos.
+          p.text-small.mb-0(numero="7" titulo="Uniformidad") hace referencia a la aplicación de normas, políticas y principios en el reconocimiento de hechos económicos.
 
 
     .row.align-items-center.mb-4
