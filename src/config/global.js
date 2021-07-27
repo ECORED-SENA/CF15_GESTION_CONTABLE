@@ -1,11 +1,10 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Estados financieros de propósito general',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+      'Se desarrollarán las bases para la presentación de los estados financieros de propósito general, bajo las NIIF. Los estados financieros son el resultado de las transacciones realizadas por la empresa en un periodo determinado, los cuales se encuentran integrados por: estado de situación financiera, estado de resultados, estado de cambio en el patrimonio, estado de flujos de efectivo y notas a los estados financieros.',
+    imagenBannerPrincipal: require('@/assets/curso/inicio.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-inicio.svg'),
   },
   menuPrincipal: {
     menu: [

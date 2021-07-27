@@ -1,0 +1,53 @@
+.bloque-texto-a
+  &.color-primario
+    background-color: lighten($color-primario, 35%)
+
+.cajon
+  &.color-primario
+    background-color: lighten($color-primario, 35%)
+
+
+.tarjetas-claras
+  .tarjeta
+    &.color-primario
+      background-color: lighten($color-primario, 25%)
+    &.color-acento-contenido
+      background-color: lighten($color-acento-contenido, 25%)
+
+
+.tarjeta-b
+  border-bottom-left-radius: 10px
+  border-bottom-right-radius: 10px
+  height: 100%
+  &__punta
+    display: flex
+    justify-content: center
+    position: relative
+    img
+      width: 56px
+      position: relative
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      width: 100%
+      top: 0
+      left: 0
+      height: 10px
+      background-color: $color-acento-contenido
+  &__content
+    &__img
+      display: flex
+      justify-content: center
+      img
+        max-width: 80px
+
+
+
+
+
+
+
+
+  &.color-gris
+    background-color: $lightest-gray
