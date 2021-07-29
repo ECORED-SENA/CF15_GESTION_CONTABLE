@@ -122,10 +122,10 @@
 
     .bloque-texto-a.reverse.color-primario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-around
-        .col-lg-9
+        .col-lg-9.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
             p Denominado también como hipótesis de empresa en funcionamiento. Este es un principio del marco conceptual bajo las Normas Internacionales de Información Financiera (NIIF), el cual hace referencia a la continuidad de la empresa. Su intención en ningún momento es liquidar o recortar la escala de sus operaciones. Es importante recalcar que en Colombia desde el mismo momento que se registra una empresa en la cámara de comercio o en notaría se estipula cuándo inicia y cuándo termina sus actividades, en dado caso que se haya registrado una fecha de vigencia puede ser prorrogable en el tiempo (NIC/NIIF, 2020).
-        .col-lg-2.mb-4.mb-lg-0
+        .col-lg-2
           img(src="@/assets/curso/t1-06.svg", alt="Texto que describa la imagen")
 
     Separador

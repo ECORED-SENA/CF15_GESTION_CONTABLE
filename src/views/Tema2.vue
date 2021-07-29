@@ -73,7 +73,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-05.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small El nivel de redondeo de las cifras de los estados financieros en millones y miles de pesos.
+            p.mb-0.text-center.text-small El nivel de redondeo de las cifras de los estados financieros en millones y miles de pesos. (Norma Internacional de Contabilidad (NIC) 1).
 
     Separador
 
@@ -95,10 +95,10 @@
 
     .bloque-texto-a.reverse.color-primario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-around
-        .col-lg-9
+        .col-lg-9.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
             p También denominado hipótesis de empresa en funcionamiento, es un principio del marco conceptual bajo las Normas Internacionales de Información Financiera (NIIF), el cual hace referencia a la continuidad de la empresa y su intención en ningún momento es liquidar o recortar la escala de sus operaciones. En Colombia desde el mismo momento que se registra una empresa en la Cámara de Comercio o en notaría se estipula cuándo inicia y cuándo termina sus actividades. 
-        .col-lg-2.mb-4.mb-lg-0
+        .col-lg-2
           img(src="@/assets/curso/t2-03.svg", alt="Texto que describa la imagen")
 
     Separador
@@ -280,10 +280,10 @@
 
     .bloque-texto-a.reverse.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
-        .col-lg-9
+        .col-lg-9.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
             p Hace referencia al contenido del estado financiero teniendo en cuenta las directrices de elaboración, este se presenta por liquidez o solvencia, el cual se explicará a continuación en la forma de presentación y se diferenciará.
-        .col-lg-2.mb-4.mb-lg-0
+        .col-lg-2
           img(src="@/assets/curso/t2-07.svg", alt="Texto que describa la imagen")
 
     Separador
