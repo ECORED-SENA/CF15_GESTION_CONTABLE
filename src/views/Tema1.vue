@@ -142,7 +142,7 @@
           br
           br
           | Por otro, para su elaboración se tiene en cuenta el cálculo del impuesto de renta y reservas obligatorias, de acuerdo con el tipo de empresa y el grupo de presentación de información financiera. 
-        .cajon.color-acento-contenido.p-4.mb-4
+        .cajon.color-acento-contenido.p-4
           p.mb-0 Es importante tener en cuenta que los ingresos son producto de la venta o prestación del servicio. Los costos reflejan la inversión que realiza la empresa para comercializar y producir el bien o prestar el servicio y, finalmente, los gastos que contribuyen al buen funcionamiento de la empresa, los cuales pueden ser administrativos, de ventas y financieros (NIC/NIIF, 2020).
 
     Separador
@@ -228,7 +228,7 @@
             div(titulo="H")
               p.mb-0 los cambios en el valor de los elementos a término de contratos a término al separar el elemento a término y el elemento al contado de un contrato a término y la designación como el instrumento de cobertura solo de los cambios en el elemento al contado, y los cambios en el valor del diferencial de la tasa de cambio de la moneda extranjera de un instrumento financiero al excluirlo de la designación de ese instrumento financiero como el instrumento de cobertura (véase el Capítulo 6 de la NIIF 9).
 
-      .col-6
+      .col-6.col-lg-4
         img.mb-4(src="@/assets/curso/t1-10.svg", alt="Texto que describa la imagen")
 
         a.anexo.mb-4(:href="obtenerLink('/downloads/tabla-resultado-integral-ORI.xls')" target="_blank")
