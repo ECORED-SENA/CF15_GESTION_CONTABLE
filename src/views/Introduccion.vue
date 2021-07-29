@@ -2,14 +2,12 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
+
     .titulo-principal
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
-    
-
 
     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
@@ -18,7 +16,6 @@
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p Los estados financieros de propósito general reflejan la situación financiera y el desempeño de la empresa en un periodo determinado, además de los flujos de efectivo; dichos estados son una herramienta administrativa que contribuye a la adecuada toma de decisiones.
-
 
     .row.justify-content-center.alig-items-center.mb-5
       .col-md-7
@@ -46,7 +43,6 @@
           p.mb-0 Una entidad presentará, como mínimo, dos estados de situación financiera, dos estados del resultado y otro resultado integral del periodo, dos estados del resultado del periodo separados (si los presenta), dos estados de flujos de efectivo y dos estados de cambios en el patrimonio, y notas relacionadas (p. 7). 
       .col-6.col-md-5
         img(src="@/assets/curso/intro-02.svg", alt="Texto que describa la imagen")
-            
 
     h3.titulo-tercero Características
 
@@ -73,7 +69,6 @@
 
           p.text-small.mb-0(numero="7" titulo="Uniformidad") hace referencia a la aplicación de normas, políticas y principios en el reconocimiento de hechos económicos.
 
-
     .row.align-items-center.mb-4
       .col-md-6
         .cajon.color-primario.p-4.mb-4
@@ -85,7 +80,6 @@
     h4.titulo-cuarto Alcance
 
     p Una entidad aplicará esta norma al preparar y presentar estados financieros de propósito de información general conforme a las Normas Internacionales de Información Financiera (NIIF).
-    
 
     .d-inline
       .cajon.color-acento-contenido.p-4.mb-4
@@ -101,7 +95,7 @@
      br
      br
      | Similarmente, las entidades que carecen de patrimonio, tal como se define en la NIC 32 Instrumentos Financieros: Presentación (por ejemplo, algunos fondos de inversión colectiva), y las entidades cuyo capital en acciones no es patrimonio (por ejemplo, algunas entidades cooperativas) podrían tener la necesidad de adaptar la presentación en los estados financieros de las participaciones de sus miembros o participantes.
-    
+
     .cajon.color-primario.p-4
       .row.align-items-center.justify-content-around
         .col-6.col-sm-3.col-md-2.mb-4.mb-sm-0
