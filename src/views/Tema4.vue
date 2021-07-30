@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal(data-aos="flip-up")
+    #t4.titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Estado de flujos efectivo
@@ -13,7 +13,7 @@
       br
       | De acuerdo con la NIC 7 (CTCP, 2020), se establece lo siguiente: 
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
 
       .row.justify-content-center(titulo="Objetivo")
         .col-6.col-md-3.mb-4.mb-md-0
@@ -62,7 +62,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t4-1.titulo-segundo
       h2 4.1 Identificación
 
     p.mb-5 El estado de flujos de efectivo se presenta de forma comprensible y debe ser identificable, teniendo en cuenta los estándares internacionales, el cual refleja la siguiente información (CTCP, 2020):
@@ -130,10 +130,10 @@
 
     Separador
 
-    .titulo-segundo
+    #t4-2.titulo-segundo
       h2 4.2 Período contable sobre el que se informa
 
-    .bloque-texto-a.reverse.color-primario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.reverse.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
         .col-lg-9.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
@@ -143,12 +143,12 @@
 
     Separador
 
-    .titulo-segundo
+    #t4-3.titulo-segundo
       h2 4.3 Elementos para elaborar el flujo de efectivo
 
     p.mb-5 Para realizar el estado de flujos de efectivo, es importante identificar claramente los elementos con el fin de proceder con su correcta clasificación y, posteriormente, elaboración. Las actividades que se presentan son (CTCP, 2020):
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center
       .col-6.col-md-3.mb-4.mb-md-0
         img(src="@/assets/curso/t4-05.svg", alt="Texto que describa la imagen")
         
@@ -169,7 +169,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t4-4.titulo-segundo
       h2 4.4 Métodos de presentación
 
     p.mb-5 En la elaboración y presentación del estado de flujos de efectivo se tienen en cuenta los siguientes métodos (CTCP, 2020):
@@ -273,7 +273,7 @@
         
     Separador
 
-    .titulo-segundo
+    #t4-5.titulo-segundo
       h2 4.5 Estructura
 
     .row.justify-content-center.mb-5
@@ -424,31 +424,6 @@
                       p.text-small
                         b Anexo. 
                         | Estado de flujos de efectivo por los años terminados en diciembre 31
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </template>
 

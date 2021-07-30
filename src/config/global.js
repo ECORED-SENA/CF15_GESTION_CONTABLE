@@ -23,116 +23,56 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Estado de resultados integral',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Identificación',
+            hash: 't1-1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Período contable sobre el que se informa',
+            hash: 't1-2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Principio del ente en marcha',
+            hash: 't1-3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
+            titulo: 'Aspectos generales',
+            hash: 't1-4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
+            titulo: 'Cuentas Otro Resultado Integral (ORI)',
+            hash: 't1-5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
+            titulo: 'Estructura',
+            hash: 't1-6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
+            titulo: 'Forma de presentación',
+            hash: 't1-7',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Información a revelar',
+            hash: 't1-8',
           },
         ],
       },
@@ -140,44 +80,56 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Estado de situación financiera',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
+            titulo: 'Identificación',
+            hash: 't2-1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
+            titulo: 'Período contable sobre el que se informa',
+            hash: 't2-2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
+            titulo: 'Principio del ente en marcha',
+            hash: 't2-3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
+            titulo: 'Distinción entre corriente y no corriente',
+            hash: 't2-4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
+            titulo: 'Cuentas del Estado de situación financiera',
+            hash: 't2-5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
+            titulo: 'Estructura',
+            hash: 't2-6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.7',
+            titulo: 'Forma de presentación',
+            hash: 't2-7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.8',
+            titulo: 'Información a revelar',
+            hash: 't2-8',
           },
         ],
       },
@@ -185,56 +137,95 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Estado de cambios en el patrimonio',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
+            titulo: 'Identificación',
+            hash: 't3-1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
+            titulo: 'Período contable sobre el que se informa',
+            hash: 't3-2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
+            titulo: 'Principio del ente en marcha',
+            hash: 't3-3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
+            titulo: 'Estructura',
+            hash: 't3-4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
+            titulo: 'Cuentas del Estado de situación financiera',
+            hash: 't3-5',
           },
         ],
       },
-    ],
-    subMenu: [
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Estado de flujos efectivo',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Identificación',
+            hash: 't4-1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Período contable sobre el que se informa',
+            hash: 't4-2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Elementos para elaborar el flujo de efectivo',
+            hash: 't4-3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo: 'Métodos de presentación',
+            hash: 't4-4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.5',
+            titulo: 'Estructura',
+            hash: 't4-5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Notas y revelaciones',
         desarrolloContenidos: true,
       },
+    ],
+    subMenu: [
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -265,134 +256,149 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Congreso de la República de Colombia. (13 de julio de 2009). Ley 1314 de 2009.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1314_2009.html',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Consejo Técnico de la Contaduría Pública – CTCP. (2006). Norma Internacional de Contabilidad 7: Estados de flujos de efectivo.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534368973-9784',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Consejo Técnico de la Contaduría Pública – CTCP. (2018). Norma Internacional de Contabilidad 1: Presentación de Estados Financieros. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534364977-6992',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Estupiñán, R. (2013). NIC / NIIF transición y adopción en la empresa. Ediciones de la U. ',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Estupiñán, R., y Sierra, A. (2017). Estados financieros básicos: bajo NIC /NIIF. Ecoe Ediciones.',
+    },
+    {
+      referencia:
+        'Godoy, E. (2013). Contabilidad y presentación de estados financieros. Grupo Editorial Nueva Legislación.',
+    },
+    {
+      referencia:
+        'Godoy, E. (2014) Normas Internacionales de información financiera NIIF. Grupo Editorial Nueva Legislación.',
+    },
+    {
+      referencia:
+        'IFRS Foundation. (2009). Módulo 5: estado del resultado integral y estado de resultados. IFRS Publications. ',
+    },
+    {
+      referencia: 'NIC NIIF (2009). NIIF para las pymes.',
+      link: 'https://www.nicniif.org/home/normas/niif-para-las-pymes.html',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (23 de diciembre de 2015). Decreto 2420 de 2015 Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/30019674',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Presidencia de la República de Colombia. (23 de diciembre de 2015). Decreto 2496 de 2015, por medio del cual se modifica el Decreto 2420 de 2015 Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/30019674',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Presidencia de la República de Colombia. (27 de marzo de 1971). Decreto-Ley 410 de 1971, por el cual se expide el Código del Comercio.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (29 de diciembre de 1993). Decreto 2649 de 1993: Reglamento General de Contabilidad.',
+      link: 'https://niif.com.co/decreto-2649-1993/',
+    },
+    {
+      referencia:
+        'Pymes y autónomos (26 de septiembre de 2013). ¿Cuál es la diferencia entre liquidez y solvencia? ',
+      link:
+        'https://www.pymesyautonomos.com/administracion-finanzas/cual-es-la-diferencia-entre-liquidez-y-solvencia',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Activo corriente',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'una entidad clasificará un activo como corriente cuando espera realizar el activo o tiene la intención de venderlo o consumirlo en su ciclo normal de operación; mantiene el activo principalmente con fines de negociación.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Estados financieros',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'un juego completo de estados financieros comprende un estado de situación financiera al final del periodo; un estado del resultado integral del periodo; un estado de cambios en el patrimonio del periodo; un estado de flujos de efectivo del periodo.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Estados financieros con propósito general',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'son aquellos que pretenden cubrir las necesidades de usuarios que no están en condiciones de exigir informes a la medida de sus necesidades específicas de información.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Financial Accounting Standards Board - FASB',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'en español traduce Misión del Concejo para los Estándares de Contaduría Financiera y es la entidad encargada de fijar los principios de contabilidad generalmente aceptados en los Estados Unidos. ',
     },
     {
-      termino: 'Moda',
+      termino: 'Generally Accepted Accounting Principles – GAAP',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'su traducción corresponde a Principios de Contabilidad Generalmente Aceptados y son de uso general en el mundo, los USGAAP son los principios de contabilidad generalmente aceptados en Estados Unidos, mientras que los COLGAAP son los principios de contabilidad generalmente aceptados en Colombia.',
     },
     {
-      termino: 'Diseño',
+      termino: 'International Accounting Standard - IAS',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Norma Internacional de Contabilidad, fueron todas las normas de Contabilidad emitidas por el Comité de Normas Internacionales de Contabilidad.',
     },
     {
-      termino: 'Tipología',
+      termino: 'International Accounting Standards Board - IASB',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'en español traduce Junta de Normas Internacionales de Contabilidad, fue creada en el año 2001 para ejercer las funciones que desde 1973 y hasta el año 2001 ejerció el IASC.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'International Accounting Standards Committee - IASC',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'en español es el Comité de Normas Internacionales de Contabilidad, creado en Londres en 1973 con el fin de estudiar y proponer Normas internacionales de Información financiera internacionales y con el apoyo de 9 países (Australia, Canadá, Francia, Alemania, Japón, México, Países Bajos, Reino Unido y Estados Unidos) aunque Estados Unidos fue el único miembro de los países fundadores que decidió no utilizar las normas Emitidas por el IASC en un principio.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'International Accounting Education Standard Board - IAESB',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'su sigla en español es IES. Calidad de la educación contable, para poder hacer paralelos en la implementación de las normas contables.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'International Financial Reporting Standards- IFRS',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'en español ha sido traducido como Normas Internacionales de Información Financiera (NIIF) y son las normas que ha emitido desde el 2001 la junta de normas internacionales de Contabilidad.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'NIC',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Norma Internacional de Contabilidad, es la equivalencia de la sigla en inglés IAS (Institute Accounting Standard).',
+    },
+    {
+      termino: 'NIIF',
+      significado:
+        'Norma Internacional de Información Financiera, es la equivalencia de la sigla en inglés IFRS (International Financial Reporting Estandar).',
+    },
+    {
+      termino: 'Pasivo corriente',
+      significado:
+        'una entidad clasificará un pasivo como corriente cuando: espera liquidar el pasivo en su ciclo normal de operación; mantiene el pasivo principalmente con fines de negociación.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Estados financieros de propósito general.<br> Servicio Nacional de Aprendizaje, SENA. (2018). Revista Finnova: Investigación e Innovación Financiera y Organizacional.',
+      tipo: 'Capítulo 1 de libro',
+      link: 'http://revistas.sena.edu.co/index.php/finn',
     },
   ],
   creditos: {
@@ -410,6 +416,32 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Eduardo Godoy Ramírez',
+        cargo: 'Instructor',
+        centro: 'Centro de Servicios Financieros -Regional Distrito Capital',
+      },
+      {
+        nombre: 'Patricia Mantilla Galvis',
+        cargo: 'Instructora',
+        centro: 'Centro de Servicios Financieros - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Vilma Lucía Perilla M.',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -424,25 +456,54 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
+        nombre: 'Jesus Antonio Vecino Valero',
+        cargo: 'Diseño web ',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Ángela María Maldonado Jaime',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Víctor Raúl Cárdenas Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'XXXXXXXXXXXXXXXXX',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

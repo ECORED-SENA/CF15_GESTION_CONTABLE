@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal(data-aos="flip-up")
+    #t2.titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Estado de situación financiera
@@ -23,7 +23,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t2-1.titulo-segundo
       h2 2.1 Identificación
 
     p.mb-4 El estado de situación financiera se presenta de forma comprensible y debe ser identificable, teniendo en cuenta los estándares internacionales, el cual reflejará la siguiente información según CTCP (2020):
@@ -77,10 +77,10 @@
 
     Separador
 
-    .titulo-segundo
+    #t2-2.titulo-segundo
       h2 2.2 Período contable sobre el que se informa
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
         .col-lg-2.mb-4.mb-lg-0
           img(src="@/assets/curso/t2-02.svg", alt="Texto que describa la imagen")
@@ -90,10 +90,10 @@
 
     Separador
 
-    .titulo-segundo
+    #t2-3.titulo-segundo
       h2 2.3 Principio del ente en marcha
 
-    .bloque-texto-a.reverse.color-primario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.reverse.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
         .col-lg-9.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
@@ -103,7 +103,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t2-4.titulo-segundo
       h2 2.4 Distinción entre corriente y no corriente
 
     p.mb-4 La entidad presentará la información corriente o no corriente, determinado por el periodo sujeto a verificación y análisis.
@@ -161,7 +161,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t2-5.titulo-segundo
       h2 2.5 Cuentas del Estado de situación financiera
 
     .row.justify-content-center
@@ -275,7 +275,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t2-6.titulo-segundo
       h2 2.6 Estructura
 
     .bloque-texto-a.reverse.color-primario.p-4.p-md-5
@@ -288,7 +288,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t2-7.titulo-segundo
       h2 2.7 Forma de presentación
 
     p.mb-4 Lo determina el encabezado, cuerpo del informe y la parte jurídica de la siguiente manera:
@@ -481,7 +481,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t2-8.titulo-segundo
       h2 2.8 Información a revelar
 
     .row.justify-content-center

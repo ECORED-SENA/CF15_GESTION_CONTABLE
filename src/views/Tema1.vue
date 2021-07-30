@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal(data-aos="flip-up")
+    #t1.titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Estado de resultados integral
@@ -42,7 +42,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t1-1.titulo-segundo
       h2 1.1 Identificación
 
     .row.justify-content-center.mb-4
@@ -104,10 +104,10 @@
 
     Separador
 
-    .titulo-segundo
+    #t1-2.titulo-segundo
       h2 1.2 Período contable sobre el que se informa
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
         .col-lg-2.mb-4.mb-lg-0
           img(src="@/assets/curso/t1-05.svg", alt="Texto que describa la imagen")
@@ -117,10 +117,10 @@
 
     Separador
 
-    .titulo-segundo
+    #t1-3.titulo-segundo
       h2 1.3 Principio del ente en marcha
 
-    .bloque-texto-a.reverse.color-primario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.reverse.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
         .col-lg-9.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
@@ -130,7 +130,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t1-4.titulo-segundo
       h2 1.4 Aspectos generales
 
     .row.align-items-center.justify-content-around
@@ -147,7 +147,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t1-5.titulo-segundo
       h2 1.5 Cuentas Otro Resultado Integral (ORI) 
 
     .row.align-items-center.justify-content-center.mb-3
@@ -231,7 +231,7 @@
       .col-6.col-lg-4
         img.mb-4(src="@/assets/curso/t1-10.svg", alt="Texto que describa la imagen")
 
-        a.anexo.mb-4(:href="obtenerLink('/downloads/tabla-resultado-integral-ORI.xls')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/tabla-resultado-integral-ORI.xls')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-xls.svg")
           .anexo__texto
@@ -241,7 +241,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t1-6.titulo-segundo
       h2 1.6 Estructura
 
     p Hace referencia al contenido y forma de presentación del estado de resultados integral.
@@ -366,7 +366,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t1-7.titulo-segundo
       h2 1.7 Forma de presentación
 
     p Está compuesto por el encabezado, cuerpo del informe y la parte jurídica, a saber:
@@ -473,7 +473,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t1-8.titulo-segundo
       h2 1.8 Información a revelar
 
     p.mb-4 En el evento que las partidas tanto de ingresos como de gastos tengan importancia relativa, su naturaleza y valor se revelarán por separado. 

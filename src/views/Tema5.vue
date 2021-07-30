@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal(data-aos="flip-up")
+    #t5.titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Notas y revelaciones
@@ -66,7 +66,7 @@
 
     p.mb-5 Teniendo en cuenta el desarrollo de las notas y revelaciones a los estados financieros, a continuación, se hace una descripción para su desarrollo: 
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
 
       .row.justify-content-center(titulo="Nota 1: Entidad reportante")
         .col-6.col-md-3.mb-4.mb-md-0

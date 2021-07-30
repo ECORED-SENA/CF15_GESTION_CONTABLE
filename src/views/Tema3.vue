@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal(data-aos="flip-up")
+    #t3.titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Estado de cambios en el patrimonio
@@ -61,7 +61,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t3-1.titulo-segundo
       h2 3.1 Identificación
 
     .row.justify-content-center.mb-5
@@ -133,10 +133,10 @@
 
     Separador
 
-    .titulo-segundo
+    #t3-2.titulo-segundo
       h2 3.2 Periodo contable sobre el que se informa.
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
         .col-lg-2.mb-4.mb-lg-0
           img(src="@/assets/curso/t3-03.svg", alt="Texto que describa la imagen")
@@ -146,10 +146,10 @@
 
     Separador
 
-    .titulo-segundo
+    #t3-3.titulo-segundo
       h2 3.3 Principio del ente en marcha.
 
-    .bloque-texto-a.reverse.color-primario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.reverse.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
         .col-lg-9.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
@@ -159,7 +159,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t3-4.titulo-segundo
       h2 3.4 Estructura
 
     .row.justify-content-center.mb-5
@@ -251,7 +251,7 @@
 
     Separador
 
-    .titulo-segundo
+    #t3-5.titulo-segundo
       h2 3.5 Información a revelar
 
     .row.justify-content-center.mb-5
@@ -286,14 +286,6 @@
             i.fas.fa-chevron-right
             | Transacciones con los propietarios en su calidad de tales, mostrando por separado las contribuciones realizadas por los propietarios y las distribuciones a éstos y los cambios en las participaciones de propiedad en subsidiarias que no den lugar a una pérdida de control. Información para presentar en el estado de cambios en el patrimonio o en las notas. (NIC 1. 106).
  
-
-
-
-
-
-
-
-
 </template>
 
 <script>
