@@ -19,7 +19,7 @@
         .col-6.col-md-3.mb-4.mb-md-0
           img(src="@/assets/curso/t4-01.svg", alt="Texto que describa la imagen")
         .col-md
-          p.mb-0 La información acerca de los flujos de efectivo de una entidad es útil porque suministra a los usuarios de los estados financieros las bases para evaluar la capacidad que tiene la entidad para generar efectivo y equivalentes al efectivo, así como las necesidades que esta tiene de utilizar dichos flujos de efectivo. Para tomar decisiones económicas, los usuarios deben evaluar la capacidad que la entidad tiene de generar efectivo y equivalentes al efectivo, así como las fechas en que se producen y el grado de certidumbre relativa de su aparición. El objetivo de esta Norma es requerir el suministro de información sobre los cambios históricos en el efectivo y equivalentes al efectivo de una entidad mediante un estado de flujos de efectivo en el que los flujos de fondos del período se clasifiquen según si proceden de actividades de operación, de inversión o de financiación. 
+          p.mb-0 La información acerca de los flujos de efectivo de una entidad es útil porque suministra a los usuarios de los estados financieros las bases para evaluar la capacidad que tiene la entidad para generar efectivo y equivalentes al efectivo, así como las necesidades que esta tiene de utilizar dichos flujos de efectivo. Para tomar decisiones económicas, los usuarios deben evaluar la capacidad que la entidad tiene de generar efectivo y equivalentes al efectivo, así como las fechas en que se producen y el grado de certidumbre relativa de su aparición. El objetivo de esta Norma es requerir el suministro de información sobre los cambios históricos en el efectivo y equivalentes al efectivo de una entidad mediante un estado de flujos de efectivo en el que los flujos de fondos del periodo se clasifiquen según si proceden de actividades de operación, de inversión o de financiación. 
           
       div(titulo="Alcance")
         .row.justify-content-center.mb-4
@@ -131,7 +131,7 @@
     Separador
 
     #t4-2.titulo-segundo
-      h2 4.2 Período contable sobre el que se informa
+      h2 4.2 Periodo contable sobre el que se informa
 
     .bloque-texto-a.reverse.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around

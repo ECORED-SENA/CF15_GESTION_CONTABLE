@@ -2022,7 +2022,7 @@ export default {
     datosLineaTiempoA: [
       {
         ano: '100.000 - 10.000 A.C.',
-        titulo: 'Período Paleolítico',
+        titulo: 'Periodo Paleolítico',
         texto: 'Pieles, pelo de animales, hojas, huesos y conchas.',
       },
       {

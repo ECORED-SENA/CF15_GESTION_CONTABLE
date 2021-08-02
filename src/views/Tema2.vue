@@ -78,7 +78,7 @@
     Separador
 
     #t2-2.titulo-segundo
-      h2 2.2 Período contable sobre el que se informa
+      h2 2.2 Periodo contable sobre el que se informa
 
     .bloque-texto-a.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
@@ -309,7 +309,7 @@
             | Nombre del Informe (Estado de situación financiera). Individual (cuando hace referencia a una empresa sola) o Consolidado (hace referencia cuando son matriz filial o subsidiaria).
           li 
             i.fas.fa-chevron-right
-            | Fecha o período de presentación (se determina desde enero de 20__(año), febrero de 20__(año), marzo de 20__(año), abril de 20__(año), mayo de 20__(año), junio de 20__(año), julio de 20__(año), agosto de 20__(año), septiembre de 20__(año), octubre de 20__(año), noviembre de 20__(año), o diciembre de 20__(año). 
+            | Fecha o periodo de presentación (se determina desde enero de 20__(año), febrero de 20__(año), marzo de 20__(año), abril de 20__(año), mayo de 20__(año), junio de 20__(año), julio de 20__(año), agosto de 20__(año), septiembre de 20__(año), octubre de 20__(año), noviembre de 20__(año), o diciembre de 20__(año). 
 
     p.mb-4 Luego se relaciona el cuerpo del informe con las cuentas que lo componen: 
 

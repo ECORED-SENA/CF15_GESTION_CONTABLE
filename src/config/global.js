@@ -35,7 +35,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'periodo contable sobre el que se informa',
+            titulo: 'Periodo contable sobre el que se informa',
             hash: 't1-2',
           },
           {
@@ -92,7 +92,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Período contable sobre el que se informa',
+            titulo: 'Periodo contable sobre el que se informa',
             hash: 't2-2',
           },
           {
@@ -149,7 +149,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Período contable sobre el que se informa',
+            titulo: 'Periodo contable sobre el que se informa',
             hash: 't3-2',
           },
           {
@@ -188,7 +188,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Período contable sobre el que se informa',
+            titulo: 'Periodo contable sobre el que se informa',
             hash: 't4-2',
           },
           {

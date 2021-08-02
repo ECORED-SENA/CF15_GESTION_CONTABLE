@@ -105,7 +105,7 @@
     Separador
 
     #t1-2.titulo-segundo
-      h2 1.2 Período contable sobre el que se informa
+      h2 1.2 Periodo contable sobre el que se informa
 
     .bloque-texto-a.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
@@ -397,7 +397,7 @@
                 | Consolidado: hace referencia a si son matriz filial o subsidiaria.
               li 
                 i.fas.fa-chevron-right
-                | Fecha o período de presentación (se determina desde el 1 de enero de 20_ año) hasta el periodo que desee presentarlos (a 31 de enero, a 28 de febrero, a 31 de marzo, o 30 de abril, o 31 de mayo, o 30 de junio, o 31 de julio, o 31 de agosto, o 30 de septiembre, o 31 de octubre, o 30 de noviembre, o 31 de diciembre).
+                | Fecha o periodo de presentación (se determina desde el 1 de enero de 20_ año) hasta el periodo que desee presentarlos (a 31 de enero, a 28 de febrero, a 31 de marzo, o 30 de abril, o 31 de mayo, o 30 de junio, o 31 de julio, o 31 de agosto, o 30 de septiembre, o 31 de octubre, o 30 de noviembre, o 31 de diciembre).
               li 
                 i.fas.fa-chevron-right
                 | Moneda funcional (expresado en $ colombianos o US$ o euros). 

@@ -37,7 +37,7 @@
             i.fas.fa-chevron-right
             | Notas a los estados financieros.
 
-        p.mb-4 Los estados financieros se deben presentar por lo menos una vez al año, y en caso de requerirse en períodos intermedios, es importante informar el periodo en el cual se está desarrollando. Al respecto, y de acuerdo con el Consejo Técnico de la Contaduría Pública - CTCP- (2020) en la NIC 1:
+        p.mb-4 Los estados financieros se deben presentar por lo menos una vez al año, y en caso de requerirse en periodos intermedios, es importante informar el periodo en el cual se está desarrollando. Al respecto, y de acuerdo con el Consejo Técnico de la Contaduría Pública - CTCP- (2020) en la NIC 1:
 
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 Una entidad presentará, como mínimo, dos estados de situación financiera, dos estados del resultado y otro resultado integral del periodo, dos estados del resultado del periodo separados (si los presenta), dos estados de flujos de efectivo y dos estados de cambios en el patrimonio, y notas relacionadas (p. 7). 

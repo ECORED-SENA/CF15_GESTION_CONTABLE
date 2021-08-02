@@ -114,7 +114,7 @@
         .col-6.col-md-3.mb-4.mb-md-0
           img(src="@/assets/curso/t5-06.svg", alt="Texto que describa la imagen")
         .col-md
-          p.mb-4 Denominadas anteriormente contingencias, como son pagos por largos períodos de servicios, demandas civiles, demandas laborales.
+          p.mb-4 Denominadas anteriormente contingencias, como son pagos por largos periodos de servicios, demandas civiles, demandas laborales.
           .cajon.color-acento-contenido.p-4
             p.mb-0 En la siguiente nota se inicia con las cuentas del activo, compuesto por el efectivo y sus equivalentes de efectivo, seguidamente se desagregan cada uno de los conceptos que hacen parte de activos, pasivos, patrimonio, ingresos y gastos, con el fin de brindar información comprensible y útil a los usuarios de la información financiera.
 
