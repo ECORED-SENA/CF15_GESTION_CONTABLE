@@ -124,8 +124,10 @@
       .row.m-0.align-items-center.justify-content-around
         .col-lg-9.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
-            p Denominado también como hipótesis de empresa en funcionamiento. Este es un principio del marco conceptual bajo las Normas Internacionales de Información Financiera (NIIF), el cual hace referencia a la continuidad de la empresa. Su intención en ningún momento es liquidar o recortar la escala de sus operaciones. Es importante recalcar que en Colombia desde el mismo momento que se registra una empresa en la cámara de comercio o en notaría se estipula cuándo inicia y cuándo termina sus actividades, en dado caso que se haya registrado una fecha de vigencia puede ser prorrogable en el tiempo (NIC/NIIF, 2020).
-        .col-lg-2
+            p Denominado también como 
+            b hipótesis de empresa en funcionamiento. 
+            | Este es un principio del marco conceptual bajo las Normas Internacionales de Información Financiera (NIIF), el cual hace referencia a la continuidad de la empresa. Su intención en ningún momento es liquidar o recortar la escala de sus operaciones. Es importante recalcar que en Colombia desde el mismo momento que se registra una empresa en la Cámara de Comercio o en notaría se estipula cuándo inicia y cuándo termina sus actividades, en dado caso que se haya registrado una fecha de vigencia puede ser prorrogable en el tiempo (NIC/NIIF, 2020).
+        .col-md-2
           img(src="@/assets/curso/t1-06.svg", alt="Texto que describa la imagen")
 
     Separador
@@ -141,7 +143,7 @@
         p.mb-4 El Estado de resultados es muy importante en la organización teniendo en cuenta que refleja el resultado final en un periodo determinado. En la elaboración de este, se puede presentar utilidad o pérdida del ejercicio, una vez se hayan restado los costos y gastos de los ingresos generados por la empresa.
           br
           br
-          | Por otro, para su elaboración se tiene en cuenta el cálculo del impuesto de renta y reservas obligatorias, de acuerdo con el tipo de empresa y el grupo de presentación de información financiera. 
+          | Por otro lado, para su elaboración se tiene en cuenta el cálculo del impuesto de renta y reservas obligatorias, de acuerdo con el tipo de empresa y el grupo de presentación de información financiera. 
         .cajon.color-acento-contenido.p-4
           p.mb-0 Es importante tener en cuenta que los ingresos son producto de la venta o prestación del servicio. Los costos reflejan la inversión que realiza la empresa para comercializar y producir el bien o prestar el servicio y, finalmente, los gastos que contribuyen al buen funcionamiento de la empresa, los cuales pueden ser administrativos, de ventas y financieros (NIC/NIIF, 2020).
 
@@ -186,25 +188,29 @@
         .bloque-texto-b.color-primario.p-4.mb-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h2.mb-0 Si una entidad no tiene partidas de otro resultado integral en ninguno de los periodos para los que se presentan estados financieros, puede presentar solo un estado de resultados o un estado del resultado integral en el que la última línea se denomine resultado 
+            h2.mb-0 Si una entidad no tiene partidas de otro resultado integral en ninguno de los periodos para los que se presentan estados financieros, puede presentar solo un estado de resultados o un estado del resultado integral en el que la última línea se denomine resultado.
             i.fas.fa-quote-right
           .bloque-texto-b__autor.position-relative
             p.mb-0.text-end (NIC/NIIF, 2020, p. 29)
 
 
-        p.mb-3 Para profundizar sobre la temática, se recomienda explorar el siguiente enlace:
+        
+    .cajon.color-acento-contenido.p-4.mb-4
+      .row.justify-content-end
+        .col-sm
+          p.mb-0 Para profundizar sobre la temática, se recomienda explorar el siguiente enlace:
 
-        .row.justify-content-end
-          .col-sm-8
-            a.anexo.mb-4.mb-lg-0(href="https://www.nicniif.org/home/normas/niif-para-las-pymes.html" target="_blank")
+        .col-sm-auto
+          .d-inline-block
+            a.anexo.mb-lg-0(href="https://www.nicniif.org/home/normas/niif-para-las-pymes.html" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 p 
                   b Enlace web. 
-                  | NIIF para las PYMES
+                  | NIIF para las PYMES.
 
-    p En la Norma Internacional de Contabilidad (NIC) 1, aplicable al grupo 1 (NIIF plenas) de presentación de información financiera, se determina que (CTCP, 2020).
+    p En la Norma Internacional de Contabilidad (NIC) 1, aplicable al grupo 1 (NIIF plenas) de presentación de información financiera, se determina que (CTCP, 2020):
 
     .row.align-items-center.justify-content-around
       .col-lg-8.mb-4.mb-lg-0
@@ -212,21 +218,21 @@
         .tarjeta.color-gris-claro.p-4
           LineaTiempoC.color-acento-contenido
             div(titulo="A")
-              p.mb-0 cambios en el superávit de revaluación (véase la NIC 16 Propiedades, Planta y Equipo y la NIC 38 Activos Intangibles);
+              p.mb-0 Cambios en el superávit de revaluación (véase la NIC 16 Propiedades, Planta y Equipo y la NIC 38 Activos Intangibles).
             div(titulo="B")
-              p.mb-0 nuevas mediciones de los planes de beneficios definidos (véase la NIC 19 Beneficios a los Empleados);
+              p.mb-0 Nuevas mediciones de los planes de beneficios definidos (véase la NIC 19 Beneficios a los Empleados).
             div(titulo="C")
-              p.mb-0 ganancias y pérdidas producidas por la conversión de los estados financieros de un negocio en el extranjero (véase la NIC 21 Efectos de la Variación en las Tasas de Cambio de la Moneda Extranjera);'
+              p.mb-0 Ganancias y pérdidas producidas por la conversión de los estados financieros de un negocio en el extranjero (véase la NIC 21 Efectos de la Variación en las Tasas de Cambio de la Moneda Extranjera)'.
             div(titulo="D")
-              p.mb-0 las ganancias y pérdidas procedentes de inversiones en instrumentos de patrimonio designados a valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 5.7.5 de la NIIF 9 Instrumentos Financieros; (da) las ganancias y pérdidas sobre activos financieros medidos al valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 4.1.2A de la NIIF 9;
+              p.mb-0 Las ganancias y pérdidas procedentes de inversiones en instrumentos de patrimonio designados a valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 5.7.5 de la NIIF 9 Instrumentos Financieros; (da) las ganancias y pérdidas sobre activos financieros medidos al valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 4.1.2A de la NIIF 9.
             div(titulo="E")
-              p.mb-0 la parte efectiva de las ganancias y pérdidas de los instrumentos de cobertura en una cobertura de flujos de efectivo y las ganancias y pérdidas de los instrumentos de cobertura que cubren inversiones en instrumentos de patrimonio medidos a valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 5.7.5 de NIIF 9 (véase el Capítulo 6 de la NIIF 9);
+              p.mb-0 La parte efectiva de las ganancias y pérdidas de los instrumentos de cobertura en una cobertura de flujos de efectivo y las ganancias y pérdidas de los instrumentos de cobertura que cubren inversiones en instrumentos de patrimonio medidos a valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 5.7.5 de NIIF 9 (véase el Capítulo 6 de la NIIF 9).
             div(titulo="F")
-              p.mb-0 para pasivos particulares designados como a valor razonable con cambios en resultados, el importe del cambio en el valor razonable que sea atribuible a cambios en el riesgo de crédito del pasivo (véase el párrafo 5.7.7 de la NIIF 9);
+              p.mb-0 Para pasivos particulares designados como a valor razonable con cambios en resultados, el importe del cambio en el valor razonable que sea atribuible a cambios en el riesgo de crédito del pasivo (véase el párrafo 5.7.7 de la NIIF 9).
             div(titulo="G")
-              p.mb-0 os cambios en el valor temporal de las opciones al separar el valor intrínseco y el valor temporal de un contrato de opción y la designación como el instrumento de cobertura solo de los cambios en el valor intrínseco (véase el Capítulo 6 de la NIIF 9); y 
+              p.mb-0 Los cambios en el valor temporal de las opciones al separar el valor intrínseco y el valor temporal de un contrato de opción y la designación como el instrumento de cobertura solo de los cambios en el valor intrínseco (véase el Capítulo 6 de la NIIF 9).
             div(titulo="H")
-              p.mb-0 los cambios en el valor de los elementos a término de contratos a término al separar el elemento a término y el elemento al contado de un contrato a término y la designación como el instrumento de cobertura solo de los cambios en el elemento al contado, y los cambios en el valor del diferencial de la tasa de cambio de la moneda extranjera de un instrumento financiero al excluirlo de la designación de ese instrumento financiero como el instrumento de cobertura (véase el Capítulo 6 de la NIIF 9).
+              p.mb-0 Los cambios en el valor de los elementos a término de contratos a término al separar el elemento a término y el elemento al contado de un contrato a término y la designación como el instrumento de cobertura solo de los cambios en el elemento al contado, y los cambios en el valor del diferencial de la tasa de cambio de la moneda extranjera de un instrumento financiero al excluirlo de la designación de ese instrumento financiero como el instrumento de cobertura (véase el Capítulo 6 de la NIIF 9).
 
       .col-6.col-lg-4
         img.mb-4(src="@/assets/curso/t1-10.svg", alt="Texto que describa la imagen")
@@ -237,7 +243,7 @@
           .anexo__texto
             p.text-small
               b Anexo. 
-              | Tabla resultado integral ORI
+              | Tabla Otro Resultado Integral (ORI).
 
     Separador
 
@@ -303,7 +309,9 @@
             p.mb-0
               b (-) Otros gastos ___________________________________
               br
-              | = Ganancia: 
+              | = Ganancia:
+
+        p.mb-4.ps-5 O
 
         .tarjeta-icono-a.color-gris
           .tarjeta-icono-a__img
@@ -345,21 +353,21 @@
             | Resultado de ejercicio.
         p Se invita a revisar los siguientes enlaces para ampliar los conceptos: 
 
-        a.anexo.mb-3(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-3(href="https://actualicese.com/diferencias-entre-el-estado-de-resultados-y-el-estado-de-resultado-integral-estandar-para-pymes/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p 
               b Enlace web. 
-              | Diferencias entre el estado de resultados y el estado del resultado integral: Estándar para Pymes
+              | Diferencias entre el estado de resultados y el estado del resultado integral: Estándar para Pymes.
 
-        a.anexo(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo(href="https://www.gerencie.com/formas-de-presentacion-del-estado-de-resultados.html" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p 
               b Enlace web. 
-              | Formas de presentación del estado de resultados
+              | Formas de presentación del estado de resultados.
 
       .col-6.col-md-5
         img(src="@/assets/curso/t1-12.svg", alt="Texto que describa la imagen")
@@ -371,7 +379,7 @@
 
     p Está compuesto por el encabezado, cuerpo del informe y la parte jurídica, a saber:
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-10
         LineaTiempoD.color-acento-contenido
           div(numero="1" titulo="Encabezado")
@@ -389,7 +397,7 @@
                 | Consolidado: hace referencia a si son matriz filial o subsidiaria.
               li 
                 i.fas.fa-chevron-right
-                | Fecha o período de presentación (se determina desde el 1 de enero de 20_ año) hasta el periodo que desee presentarlos (a 31 de enero a 28 de febrero, a 31 de marzo, o 30 de abril, o 31 de mayo, o 30 de junio, o 31 de julio o 31 de agosto, o 30 de septiembre, o 31 de octubre, o 30 de noviembre, o 31 de diciembre).
+                | Fecha o período de presentación (se determina desde el 1 de enero de 20_ año) hasta el periodo que desee presentarlos (a 31 de enero, a 28 de febrero, a 31 de marzo, o 30 de abril, o 31 de mayo, o 30 de junio, o 31 de julio, o 31 de agosto, o 30 de septiembre, o 31 de octubre, o 30 de noviembre, o 31 de diciembre).
               li 
                 i.fas.fa-chevron-right
                 | Moneda funcional (expresado en $ colombianos o US$ o euros). 
@@ -398,7 +406,7 @@
             img.mb-4(src="@/assets/curso/t1-tabla-02.svg", alt="Texto que describa la imagen")
             .row.mb-4
               .col-lg-6.mb-4.mb-lg-0
-                .cajon.color-primario.p-4.h-100
+                .cajon.color-acento-contenido.p-4.h-100
                   p.mb-4 Seguidamente se presenta el cuerpo del informe, teniendo en cuenta la información que recopila el estado de resultado integral, compuestos por:
 
                   ul.lista-ul--color.ps-4
@@ -415,7 +423,7 @@
                       i.fas.fa-chevron-right
                       | La ganancia o pérdida.
               .col-lg-6
-                .cajon.color-primario.p-4.h-100
+                .cajon.color-acento-contenido.p-4.h-100
                   p.mb-4 Cabe resaltar que en cada cuenta se relaciona:
 
                   ul.lista-ul--color.ps-4
@@ -439,37 +447,75 @@
                       b Anexo. 
                       | Estructura general del estado de resultados por naturaleza de los gastos
 
-          div(numero="3" titulo="Parte júridica")
+          div(numero="3" titulo="Parte jurídica")
             img.mb-4(src="@/assets/curso/t1-tabla-03.svg", alt="Texto que describa la imagen")
-            p.mb-0 En la presentación de esta sección, se tiene en cuenta la parte jurídica acorde con los lineamientos del Código de Comercio, asimismo con la Ley 222 de 1995, específicamente en los artículos 37 y 38. 
-          
-          div(numero="4" titulo="Estado de resultado integral por función de los gastos")
-            p.mb-4 De acuerdo con las Normas Internacionales de Información Financiera (NIIF), este método presenta de forma discriminada en el ámbito local (Colombia) los ingresos ordinarios, costos de venta y costos de administración. De igual forma, se presentan los ingresos financieros, los gastos financieros, las diferencias de cambio en moneda extranjera, revelando así los registros contables que hacen parte de este estado de resultado integral por función.
+            p.mb-4 Dentro de las disposiciones legales vigentes aplicables a los estados financieros encontramos:
 
-            .cajon.color-primario.p-4.h-100.mb-4
-              .row.justify-content-end
-                .col-md
-                  p.mb-0 Para esto se considera la dimensión jurídica acorde con los lineamientos del Código de Comercio (Congreso de la República de Colombia, 2020).
-                .col-md-6
-                  a.anexo(:href="obtenerLink('/downloads/estructura-general-estado.xls')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-xls.svg")
-                    .anexo__texto
-                      p.text-small
-                        b Anexo. 
-                        | Estructura general del estado de resultados por naturaleza de los gastos
+            ul.lista-ul--color.ps-4
+              li 
+                i.fas.fa-chevron-right
+                | Firma del Representante Legal. 
+
+              li 
+                i.fas.fa-chevron-right
+                | Firma del Contador Público con número de la tarjeta profesional T.P - T (titulado) o A (aceptado); los últimos son personas que estudian y luego se presentan a la junta central de contadores para desarrollar un exámen (personas empíricas) y,
+
+              li 
+                i.fas.fa-chevron-right
+                | Firma de Revisor Fiscal con número de tarjeta profesional, quien da fe pública de las cifras allí registradas en los Estados Financieros en este caso el Estado de Resultado Integral, emitiendo un dictamen. Acogiéndose a las normas colombianas: Ley 222 de 1995, artículos 37 y 38 y Decreto 2649 de 1993, artículo 33). 
+
+    p.mb-4 El Estado de resultados integral, se puede presentar por “naturaleza” o por “función”, acorde con la empresa y sus lineamientos, los cuales se relacionan a continuación: 
+
+    h3.mb-4 Estado de resultados por naturaleza de los gastos
+    p.mb-4 Según las NIIF (CTCP, 2020), es muy simple de aplicar, ya que no es necesaria la distribución de los gastos realizados en los registros (operaciones) en las diferentes funciones que se llevan a cabo en la empresa y son presentados de acuerdo con su naturaleza.
+      br
+      br
+      | De acuerdo con lo descrito, en este tipo de presentación del Estado de resultado integral se revelan los registros contables que hacen parte de este. Así mismo, solo se reconocen gastos sin ser redistribuidos entre administrativos, ventas o financieros. Estos se presentan de acuerdo con su relevancia, relacionando: amortización, depreciación, compras de materiales, transporte, sueldos, etc.
+      br
+      br
+      | Es de aclarar que en la ejecución de las transacciones o registros contables se discriminan como gastos administrativos, gastos de venta, gastos no operacionales, costos de venta, costos de producción, dado que, para los informes a nivel local (Colombia) se deben presentar discriminados. Sin embargo, bajo las Normas Internacionales de Información Financiera (NIIF), los informes se presentan sin códigos y todo corresponde a gastos (CTCP, 2020). 
+
+    .row.mb-5
+      .col-md-6
+        .cajon.color-acento-contenido.p-4
+          p En el siguiente anexo podrá ver la 
+            b estructura general del estado de resultados por naturaleza de los gastos.
+          .text-end
+            .d-inline-block
+              a.anexo.shadow-sm(:href="obtenerLink('/downloads/estructura-general-estado.xls')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-xls.svg")
+                .anexo__texto
+                  p.text-small
+                    b Anexo. 
+                    | Estado de resultados por naturaleza de los gastos.
+      .col-md-6.tarjetas-claras
+        h5 Parte jurídica
+        p.mb-0 En la presentación de esta sección, se tiene en cuenta la parte jurídica acorde con los lineamientos del Código de Comercio, asimismo con la Ley 222 de 1995, específicamente en los artículos 37 y 38. 
 
 
-            .row.justify-content-center.align-items-center.mb-4
-              .col-6.col-md-4.mb-4.mb-md-0
-                img(src="@/assets/curso/t1-13.svg", alt="Texto que describa la imagen")
-              .col-md
-                p Para realizar el estado de resultados es importante haber surtido el proceso del ciclo contable, donde se tiene en cuenta: el registro de los hechos económicos con base a los soportes contables originados en la transacción, seguidamente el registro en los libros de contabilidad, el balance de comprobación, ajustes y, finalmente, el comprobante de cierre para empezar a elaborar los estados financieros.
-                  br
-                  br
-                  | El primer estado que se debe elaborar es el estado de resultados, teniendo en cuenta los saldos presentados en las cuentas de ingresos, gastos y costos y la estructura elegida para su presentación. Al final se obtiene el resultado, que puede ser ganancia o pérdida.
+    h3.mb-4 Estado de resultado integral por función de los gastos
+    p.mb-4 De acuerdo con las Normas Internacionales de Información Financiera (NIIF), este método presenta de forma discriminada en el ámbito local (Colombia) los ingresos ordinarios, costos de venta y costos de administración. De igual forma, se presentan los ingresos financieros, los gastos financieros, las diferencias de cambio en moneda extranjera, revelando así los registros contables que hacen parte de este estado de resultado integral por función.
 
-            img(src="@/assets/curso/t1-tabla-04.svg", alt="Texto que describa la imagen")
+  
+    .row.justify-content-center.align-items-center.mb-4
+      .col-6.col-md-4.mb-4.mb-md-0
+        img(src="@/assets/curso/t1-13.svg", alt="Texto que describa la imagen")
+      .col-md
+        .cajon.color-primario.p-4.h-100.mb-4
+          p.mb-0 Para esto se considera la dimensión jurídica acorde con los lineamientos del Código de Comercio (Congreso de la República de Colombia, 2020).
+
+        p.mb-0 Para realizar el estado de resultados es importante haber surtido el proceso del ciclo contable, donde se tiene en cuenta: el registro de los hechos económicos con base a los soportes contables originados en la transacción, seguidamente el registro en los libros de contabilidad, el balance de comprobación, ajustes y, finalmente, el comprobante de cierre para empezar a elaborar los estados financieros.
+          br
+          br
+          | El primer estado que se debe elaborar es el estado de resultados, teniendo en cuenta los saldos presentados en las cuentas de ingresos, gastos y costos y la estructura elegida para su presentación. Al final se obtiene el resultado, que puede ser ganancia o pérdida.
+    
+    .row.justify-content-center
+      .col-md-9.col-lg-8
+        h5 Ejemplo:
+        figure
+          img(src="@/assets/curso/t1-tabla-04.svg", alt="Texto que describa la imagen")
+          figcaption.mt-1 Nota. Tomada de Estupiñán (2017)
 
     Separador
 
@@ -486,7 +532,7 @@
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h2.mb-0 Una entidad revelará por separado las siguientes partidas en el estado del resultado integral como distribuciones para el periodo:
+            h3.mb-0 Una entidad revelará por separado las siguientes partidas en el estado del resultado integral como distribuciones para el periodo:
             i.fas.fa-quote-right
 
 
@@ -531,7 +577,7 @@
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h2.mb-0 Una entidad presentará un desglose de gastos, utilizando una clasificación basada en la naturaleza o en la función de los gastos dentro de la entidad, lo que proporcione una información que sea fiable y más relevante
+            h2.mb-0 Una entidad presentará un desglose de gastos, utilizando una clasificación basada en la naturaleza o en la función de los gastos dentro de la entidad, lo que proporcione una información que sea fiable y más relevante.
             i.fas.fa-quote-right
           .bloque-texto-b__autor.position-relative
             p.mb-0.text-end (NIC NIIF, 2020).
@@ -546,7 +592,7 @@
               li.mb-0
                 .lista-ol--cuadro__vineta
                   span a
-                | Según este método de clasificación, los gastos se agruparán en el estado del resultado integral de acuerdo con su naturaleza (por ejemplo, depreciación, compras de materiales, costos de transporte, beneficios a los empleados y costos de publicidad d) y no se redistribuirán entre las diferentes funciones dentro de la entidad (NIC NIIF, 2020).
+                | Según este método de clasificación, los gastos se agruparán en el estado del resultado integral de acuerdo con su naturaleza (por ejemplo, depreciación, compras de materiales, costos de transporte, beneficios a los empleados y costos de publicidad) y no se redistribuirán entre las diferentes funciones dentro de la entidad (NIC NIIF, 2020).
 
           .p-3(numero="2" titulo="Desglose por función de los gastos")
             ol.lista-ol--cuadro.mb-4
@@ -557,7 +603,9 @@
                 br
                 br
                 | Una entidad revelará el importe del impuesto a las ganancias relativo a cada partida de otro resultado integral, incluyendo los ajustes por reclasificación, en el estado del resultado del periodo y otro resultado integral o en las notas (CTCP, 2020).
-
+                br
+                br
+                | De igual manera, las revelaciones que se presentarán de forma separada son (CTCP, 2020):
             ul.lista-ul--color.ps-5.mb-4
               li 
                 i.fas.fa-chevron-right
@@ -567,7 +615,7 @@
                 | La reestructuración de las actividades de una entidad y la reversión de cualquier provisión para hacer frente a los costos de ella. 
               li 
                 i.fas.fa-chevron-right
-                | La disposición de partidas de propiedades, planta y equipo
+                | La disposición de partidas de propiedades, planta y equipo.
               li 
                 i.fas.fa-chevron-right
                 | Las disposiciones de inversiones.
@@ -581,7 +629,7 @@
                 i.fas.fa-chevron-right
                 | Otras reversiones de provisiones.
 
-            p Para ampliar la información, se invita a revisar el siguiente libro en la biblioteca SENA: Estupiñán, R., y Sierra, A. (2017). Estados financieros básicos: bajo NIC /NIIF. Ecoe Ediciones.
+            p Para ampliar la información, se invita a revisar el siguiente libro en la biblioteca SENA: Estupiñán, R., y Sierra, A. (2017). Estados financieros básicos: bajo NIC / NIIF. Ecoe Ediciones.
               br
               br
               | Así mismo, revisar:
@@ -592,7 +640,7 @@
               .anexo__texto
                 p.text-small
                   b Anexo. 
-                  | Norma Internacional de Contabilidad (NIC) 1
+                  | Norma Internacional de Contabilidad (NIC) 1.
 </template>
 
 <script>

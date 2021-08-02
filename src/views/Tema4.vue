@@ -6,7 +6,7 @@
     #t4.titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 4
-      h1 Estado de flujos efectivo
+      h1 Estado de flujos de efectivo
 
     p.mb-4 Es el estado financiero básico que muestra cómo se genera el efectivo utilizado en las actividades de operación, inversión y financiación. Este informe debe proporcionar información sobre la capacidad de la empresa para generar el efectivo y/o equivalentes al efectivo.
       br
@@ -58,7 +58,7 @@
                 .anexo__texto
                   p.text-small
                     b Anexo. 
-                    | Estado de Flujos de Efectivo 1
+                    | Estado de Flujos de Efectivo 1.
 
     Separador
 
@@ -174,7 +174,7 @@
 
     p.mb-5 En la elaboración y presentación del estado de flujos de efectivo se tienen en cuenta los siguientes métodos (CTCP, 2020):
 
-    h3.mb-4 Objetivo
+    h3.mb-4 Método directo
 
     p.mb-5 Este presenta de forma separada las entradas y salidas de efectivo, teniendo en cuenta la clasificación de las actividades de operación, de inversión y financiación. En este estado se rehace el estado de resultados utilizando el método de caja para determinar las entradas y salidas de las actividades de operación. 
 
@@ -278,6 +278,7 @@
 
     .row.justify-content-center.mb-5
       .col-md.col-lg-6.mb-4.mb-md-0
+        p.mb-4 Recuerde que en los dos métodos se tienen en cuenta los siguientes numerales:
         ul.lista-ul--color.ps-3.mb-4
           li 
             i.fas.fa-chevron-right
@@ -305,7 +306,7 @@
                 .anexo__texto
                   p.text-small
                     b Anexo. 
-                    | Estado de flujos de efectivo - método directo e indirecto
+                    | Estado de flujos de efectivo - Método directo e indirecto.
 
       .col-6.col-md-3
         img(src="@/assets/curso/t4-10.svg", alt="Texto que describa la imagen")
@@ -314,7 +315,7 @@
 
     p.mb-5 Con el fin de comprender la anterior información, se presenta un ejemplo práctico con la cuenta de ingresos y clientes. 
 
-    h3.mb-4 procedimiento
+    h3.mb-4 Procedimiento
 
     .row.justify-content-end
       .col-lg-10
@@ -351,32 +352,32 @@
             p.mb-4 Para calcular el efectivo recaudado de los clientes, resultados de las ventas generadas (ingresos ordinarios) se realiza el siguiente proceso:
 
             .row.justify-content-center.mb-4
-              .col-sm-6.col-md-4.col-lg-3.mb-4
+              .col-sm-6.col-md-4.mb-4
                 .tarjeta-b.color-gris
                   .tarjeta-b__punta
                     img(src='@/assets/curso/punta-tarjeta.svg')
                   .tarjeta-b__content.px-4.p-3
                     .tarjeta-b__content__img.mb-3
                       img(src='@/assets/curso/t4-ico-04.svg' alt='Texto que describa la imagen')
-                    p.mb-0.text-center.text-small Se registra el valor de los ingresos
+                    p.mb-0.text-center.text-small Se registra el valor de los ingresos.
 
-              .col-sm-6.col-md-4.col-lg-3.mb-4
+              .col-sm-6.col-md-4.mb-4
                 .tarjeta-b.color-gris
                   .tarjeta-b__punta
                     img(src='@/assets/curso/punta-tarjeta.svg')
                   .tarjeta-b__content.px-4.p-3
                     .tarjeta-b__content__img.mb-3
                       img(src='@/assets/curso/t4-ico-05.svg' alt='Texto que describa la imagen')
-                    p.mb-0.text-center.text-small Se suman el valor de clientes del año 1
+                    p.mb-0.text-center.text-small Se suman el valor de clientes del año 1.
 
-              .col-sm-6.col-md-4.col-lg-3.mb-4
+              .col-sm-6.col-md-4.mb-4
                 .tarjeta-b.color-gris
                   .tarjeta-b__punta
                     img(src='@/assets/curso/punta-tarjeta.svg')
                   .tarjeta-b__content.px-4.p-3
                     .tarjeta-b__content__img.mb-3
                       img(src='@/assets/curso/t4-ico-06.svg' alt='Texto que describa la imagen')
-                    p.mb-0.text-center.text-small Se resta el valor de clientes del año 2
+                    p.mb-0.text-center.text-small Se resta el valor de clientes del año 2.
             
             .row.justify-content-center.mb-5
               .col-md-8
@@ -408,9 +409,7 @@
           .p-3(numero="4" titulo="Paso 4")
             h3.mb-5 Para comprobar que el estado de flujos de efectivo se haya realizado correctamente es importante revisar el efectivo y los equivalentes de efectivo de los dos años, con el fin de constatar con el efectivo generado en el estado de flujos de efectivo.
             
-            .row.justify-content-center.mb-5
-              .col-md-8
-                img(src="@/assets/curso/t4-tabla-04.svg", alt="Texto que describa la imagen")
+            img.mb-5(src="@/assets/curso/t4-tabla-04.svg", alt="Texto que describa la imagen")
 
             .cajon.color-acento-contenido.p-4
               p.mb-3 A continuación, observa un ejemplo por el método directo, donde se presenta la estructura y variaciones de las actividades de operación, inversión y financiación.
@@ -423,7 +422,7 @@
                     .anexo__texto
                       p.text-small
                         b Anexo. 
-                        | Estado de flujos de efectivo por los años terminados en diciembre 31
+                        | Estado de flujos de efectivo por los años terminados en diciembre 31.
 
 </template>
 

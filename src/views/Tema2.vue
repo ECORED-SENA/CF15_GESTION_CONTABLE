@@ -358,25 +358,25 @@
                 span.text-bold.me-4 21
                 | Obligaciones financieras e instrumentos derivados.
               li 
-                span.text-bold.me-4 22
+                span.text-bold.me-4 23
                 | Cuentas comerciales por pagar y cuentas por pagar. 
               li 
-                span.text-bold.me-4 23
+                span.text-bold.me-4 24
                 | Pasivos por impuestos corrientes.
               li 
-                span.text-bold.me-4 24
+                span.text-bold.me-4 25
                 | Obligaciones laborales y de seguridad social.
               li 
-                span.text-bold.me-4 25
+                span.text-bold.me-4 26
                 | Provisiones.
               li 
-                span.text-bold.me-4 26
+                span.text-bold.me-4 27
                 | Ingresos diferidos.
               li 
-                span.text-bold.me-4 27
+                span.text-bold.me-4 28
                 | Pasivos incluidos en grupos de activos para su disposición clasificados como mantenidos para la venta. 
               li 
-                span.text-bold.me-4 28
+                span.text-bold.me-4 29
                 | Otros pasivos.
 
       .col-md-6.col-lg-4.mb-4
@@ -395,13 +395,13 @@
                 span.text-bold.me-4 33
                 | Reservas.
               li 
-                span.text-bold.me-4 34
+                span.text-bold.me-4 35
                 | Dividendos y participaciones.
               li 
-                span.text-bold.me-4 35
+                span.text-bold.me-4 36
                 | Resultados del ejercicio.
               li 
-                span.text-bold.me-4 36
+                span.text-bold.me-4 37
                 | Resultado del ejercicio anteriores.
 
     h3.mb-4 Aspectos jurídicos
@@ -415,7 +415,7 @@
             | Firma del Representante Legal.
           li 
             i.fas.fa-chevron-right
-            | Firma del Contador Público con número de la tarjeta profesional TP N°.__ T (titulado) o A (aceptado) son personas que estudian y luego se presentan a la junta central contadores para desarrollar un examen (son para personas empíricas) y,
+            | Firma del Contador Público con número de la tarjeta profesional TP N°.__ T (titulado) o A (aceptado) son personas que estudian y luego se presentan a la junta central de contadores para desarrollar un examen (son para personas empíricas) y,
           li 
             i.fas.fa-chevron-right
             | Firma de Revisor Fiscal con número de tarjeta profesional, quien da fe pública de las cifras allí registradas en los Estados Financieros en este caso el Estado de Resultado Integral, emitiendo un dictamen. Acogiéndose a las normas colombianas: Ley 222 de 1995, artículos 37 y 38 y el Decreto 2649 de 1993, artículo 33.
@@ -443,7 +443,7 @@
                   .anexo__texto
                     p.text-small
                       b Anexo. 
-                      | Presentación por liquidez
+                      | Presentación por liquidez.
 
           .p-3(numero="2" titulo="Por solvencia")
             p.mb-4 La solvencia es la capacidad de un individuo o empresa para atender sus compromisos de pago con los acreedores, es decir, sus deudas.
@@ -459,7 +459,7 @@
                   .anexo__texto
                     p.text-small
                       b Anexo. 
-                      | Presentación por solvencia
+                      | Presentación por solvencia.
 
             .cajon.color-acento-contenido.p-4.mb-4
               h4 No olvidar que…
@@ -477,7 +477,7 @@
                   .anexo__texto
                     p.text-small
                       b Anexo. 
-                      | Estado de situación financiera 
+                      | Estado de situación financiera.
 
     Separador
 
@@ -503,22 +503,10 @@
             | Las provisiones, teniendo en cuenta separar los beneficios a empleado de los demás.
           li 
             i.fas.fa-chevron-right
-            | El capital, reservas y primas de emisión (NIC1 .78).
+            | El capital, reservas y primas de emisión (NIC 1.78).
 
       .col-6.col-md-3
         img(src="@/assets/curso/t2-11.svg", alt="Texto que describa la imagen")
-
-
-
-
-
-
-
-
-
-
-
-
 
 </template>
 

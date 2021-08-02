@@ -12,7 +12,7 @@
     .bloque-texto-b.color-primario.p-4.mb-4
       .bloque-texto-b__texto
         i.fas.fa-quote-left
-        h2.mb-0 El estado de cambios en el patrimonio presenta el resultado del periodo sobre el que se informa de una entidad, las partidas de ingresos y gastos reconocidas en el otro resultado integral para el periodo, los efectos de los cambios en políticas contables y las correcciones de errores reconocidos en el periodo, y los importes de las inversiones hechas, y los dividendos y otras distribuciones recibidas, durante el periodo por los inversores en patrimonio 
+        h2.mb-0 El estado de cambios en el patrimonio presenta el resultado del periodo sobre el que se informa de una entidad, las partidas de ingresos y gastos reconocidas en el otro resultado integral para el periodo, los efectos de los cambios en políticas contables y las correcciones de errores reconocidos en el periodo, y los importes de las inversiones hechas, y los dividendos y otras distribuciones recibidas, durante el periodo por los inversores en patrimonio.
         i.fas.fa-quote-right
       .bloque-texto-b__autor.position-relative
         p.mb-0.text-end (CTCP, 2020, p. 9).
@@ -39,7 +39,7 @@
           li
             .lista-ol--cuadro__vineta
               span c
-            | [eliminado]
+            | [eliminado].
           li
             .lista-ol--cuadro__vineta
               span d
@@ -134,7 +134,7 @@
     Separador
 
     #t3-2.titulo-segundo
-      h2 3.2 Periodo contable sobre el que se informa.
+      h2 3.2 Periodo contable sobre el que se informa
 
     .bloque-texto-a.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
@@ -147,13 +147,13 @@
     Separador
 
     #t3-3.titulo-segundo
-      h2 3.3 Principio del ente en marcha.
+      h2 3.3 Principio del ente en marcha
 
     .bloque-texto-a.reverse.color-primario.p-4.p-md-5
       .row.m-0.align-items-center.justify-content-around
         .col-lg-9.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
-            p Denominado también hipótesis de empresa en funcionamiento, este es un principio del marco conceptual bajo las Normas Internacionales de Información Financiera (NIIF), el cual hace referencia a la continuidad de la empresa y su intención en ningún momento es liquidar o recortar la escala de sus operaciones. Es importante recalcar que en Colombia desde el mismo momento que se registra una empresa en la Cámara de Comercio o en notaria se estipula cuándo inicia y cuándo termina sus actividades. 
+            p Denominado también hipótesis de empresa en funcionamiento, este es un principio del marco conceptual bajo las Normas Internacionales de Información Financiera (NIIF), el cual hace referencia a la continuidad de la empresa y su intención en ningún momento es liquidar o recortar la escala de sus operaciones. Es importante recalcar que en Colombia desde el mismo momento que se registra una empresa en la Cámara de Comercio o en notaría se estipula cuándo inicia y cuándo termina sus actividades. 
         .col-lg-2
           img(src="@/assets/curso/t3-04.svg", alt="Texto que describa la imagen")
 
@@ -179,7 +179,7 @@
                 .anexo__texto
                   p.text-small
                     b Anexo. 
-                    | Estructura del estado de cambio en el patrimonio
+                    | Estructura del estado de cambio en el patrimonio.
 
     .row.justify-content-center.mb-5
       .col-md.mb-4.mb-lg-0
@@ -247,7 +247,7 @@
       .col-md-9
         figure
           img(src="@/assets/curso/t3-tabla-01.svg", alt="Texto que describa la imagen")
-          figcaption Fuente: Tomada de Estupiñán (2017).
+          figcaption.mt-1 Fuente: Tomada de Estupiñán (2017).
 
     Separador
 

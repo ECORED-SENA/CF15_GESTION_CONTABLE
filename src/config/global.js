@@ -35,7 +35,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Período contable sobre el que se informa',
+            titulo: 'periodo contable sobre el que se informa',
             hash: 't1-2',
           },
           {
@@ -167,7 +167,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: 'Cuentas del Estado de situación financiera',
+            titulo: 'Información a revelar',
             hash: 't3-5',
           },
         ],
@@ -176,7 +176,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Estado de flujos efectivo',
+        titulo: 'Estado de flujos de efectivo',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -278,7 +278,7 @@ export default {
     },
     {
       referencia:
-        'Estupiñán, R., y Sierra, A. (2017). Estados financieros básicos: bajo NIC /NIIF. Ecoe Ediciones.',
+        'Estupiñán, R., y Sierra, A. (2017). Estados financieros básicos: bajo NIC / NIIF. Ecoe Ediciones.',
     },
     {
       referencia:
@@ -286,7 +286,7 @@ export default {
     },
     {
       referencia:
-        'Godoy, E. (2014) Normas Internacionales de información financiera NIIF. Grupo Editorial Nueva Legislación.',
+        'Godoy, E. (2014) Normas Internacionales de Información Financiera NIIF. Grupo Editorial Nueva Legislación.',
     },
     {
       referencia:
@@ -355,7 +355,7 @@ export default {
     {
       termino: 'International Accounting Standard - IAS',
       significado:
-        'Norma Internacional de Contabilidad, fueron todas las normas de Contabilidad emitidas por el Comité de Normas Internacionales de Contabilidad.',
+        'norma Internacional de Contabilidad, fueron todas las normas de Contabilidad emitidas por el Comité de Normas Internacionales de Contabilidad.',
     },
     {
       termino: 'International Accounting Standards Board - IASB',
@@ -365,7 +365,7 @@ export default {
     {
       termino: 'International Accounting Standards Committee - IASC',
       significado:
-        'en español es el Comité de Normas Internacionales de Contabilidad, creado en Londres en 1973 con el fin de estudiar y proponer Normas internacionales de Información financiera internacionales y con el apoyo de 9 países (Australia, Canadá, Francia, Alemania, Japón, México, Países Bajos, Reino Unido y Estados Unidos) aunque Estados Unidos fue el único miembro de los países fundadores que decidió no utilizar las normas Emitidas por el IASC en un principio.',
+        'en español es el Comité de Normas Internacionales de Contabilidad, creado en Londres en 1973 con el fin de estudiar y proponer normas internacionales de Información financiera internacionales y con el apoyo de 9 países (Australia, Canadá, Francia, Alemania, Japón, México, Países Bajos, Reino Unido y Estados Unidos) aunque Estados Unidos fue el único miembro de los países fundadores que decidió no utilizar las normas emitidas por el IASC en un principio.',
     },
     {
       termino: 'International Accounting Education Standard Board - IAESB',
@@ -375,17 +375,17 @@ export default {
     {
       termino: 'International Financial Reporting Standards- IFRS',
       significado:
-        'en español ha sido traducido como Normas Internacionales de Información Financiera (NIIF) y son las normas que ha emitido desde el 2001 la junta de normas internacionales de Contabilidad.',
+        'en español ha sido traducido como Normas Internacionales de Información Financiera (NIIF) y son las normas que ha emitido desde el 2001 la Junta de Normas Internacionales de Contabilidad.',
     },
     {
       termino: 'NIC',
       significado:
-        'Norma Internacional de Contabilidad, es la equivalencia de la sigla en inglés IAS (Institute Accounting Standard).',
+        ' Norma Internacional de Contabilidad, es la equivalencia de la sigla en inglés IAS (Institute Accounting Standard).',
     },
     {
       termino: 'NIIF',
       significado:
-        'Norma Internacional de Información Financiera, es la equivalencia de la sigla en inglés IFRS (International Financial Reporting Estandar).',
+        ' Norma Internacional de Información Financiera, es la equivalencia de la sigla en inglés IFRS (International Financial Reporting Estandard).',
     },
     {
       termino: 'Pasivo corriente',
@@ -397,8 +397,8 @@ export default {
     {
       texto:
         'Estados financieros de propósito general.<br> Servicio Nacional de Aprendizaje, SENA. (2018). Revista Finnova: Investigación e Innovación Financiera y Organizacional.',
-      tipo: 'Capítulo 1 de libro',
-      link: 'http://revistas.sena.edu.co/index.php/finn',
+      tipo: 'PDF',
+      link: 'downloads/finnova-v4-n6 .pdf',
     },
   ],
   creditos: {
@@ -414,12 +414,12 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Eduardo Godoy Ramírez',
         cargo: 'Instructor',
-        centro: 'Centro de Servicios Financieros -Regional Distrito Capital',
+        centro: 'Centro de Servicios Financieros - Regional Distrito Capital',
       },
       {
         nombre: 'Patricia Mantilla Galvis',
@@ -448,72 +448,72 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Jesus Antonio Vecino Valero',
         cargo: 'Diseño web ',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Ángela María Maldonado Jaime',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Víctor Raúl Cárdenas Cáceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Andres Mauricio Santaella Ochoa',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'XXXXXXXXXXXXXXXXX',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

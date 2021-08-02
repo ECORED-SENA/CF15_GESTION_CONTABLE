@@ -4,14 +4,16 @@
   background-color: $lightest-gray
 .color-gris-claro
   background-color: lighten($black, 95%)
-  
+
 .bloque-texto-a
   &.color-primario
-    background-color: lighten($color-primario, 35%)
+    background-color: #E1E4E6
 
 .cajon
   &.color-primario
     background-color: lighten($color-primario, 35%)
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 25%)
 
 
 .tarjetas-claras
@@ -26,10 +28,22 @@
   border-bottom-left-radius: 10px
   border-bottom-right-radius: 10px
   height: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+  &:after
+    content: ''
+    display: block
+    text-align: center
+    height: 1px
+    width: 30%
+    background-color: $color-acento-contenido
+    margin-bottom: 10px
   &__punta
     display: flex
     justify-content: center
     position: relative
+    width: 100%
     img
       width: 56px
       position: relative
@@ -43,6 +57,7 @@
       height: 10px
       background-color: $color-acento-contenido
   &__content
+    flex-grow: 1
     &__img
       display: flex
       justify-content: center

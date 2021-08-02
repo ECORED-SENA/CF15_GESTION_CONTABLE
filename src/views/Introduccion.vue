@@ -26,7 +26,7 @@
             | Estado de situación financiera.
           li 
             i.fas.fa-chevron-right
-            | Estados de resultados integral.
+            | Estado de resultados integral.
           li 
             i.fas.fa-chevron-right
             | Estado de cambio en el patrimonio.
@@ -55,27 +55,30 @@
       .col.d-md-none
       .col-md-7
         LineaTiempoD.color-acento-contenido
-          p.text-small.mb-0(numero="1" titulo="Presentación razonable") es la presentación fidedigna de los estados financieros, teniendo en cuenta los criterios establecidos en las NIIF.
+          p.mb-0(numero="1" titulo="Presentación razonable") Es la presentación fidedigna de los estados financieros, teniendo en cuenta los criterios establecidos en las NIIF.
           
-          p.text-small.mb-0(numero="2" titulo="Negocio en marcha") indica que la empresa debe tener continuidad en el tiempo y, por ende, la contabilidad debe reflejar el flujo de sus operaciones.
+          p.mb-0(numero="2" titulo="Negocio en marcha") Indica que la empresa debe tener continuidad en el tiempo y, por ende, la contabilidad debe reflejar el flujo de sus operaciones.
           
-          p.text-small.mb-0(numero="3" titulo="Base de acumulación") hace referencia al reconocimiento de los hechos económicos, los cuales se realizan en el momento que suceden.
+          p.mb-0(numero="3" titulo="Base de acumulación") Hace referencia al reconocimiento de los hechos económicos, los cuales se realizan en el momento que suceden.
           
-          p.text-small.mb-0(numero="4" titulo="Importancia relativa") también denominada materialidad, hace énfasis en el reconocimiento, o no, de un hecho económico. Puede tener un efecto significativo en el proceso contable y en la toma de decisiones.
+          p.mb-0(numero="4" titulo="Importancia relativa") También denominada materialidad, hace énfasis en el reconocimiento, o no, de un hecho económico. Puede tener un efecto significativo en el proceso contable y en la toma de decisiones.
 
-          p.text-small.mb-0(numero="5" titulo="Compensación") una entidad no compensará activos con pasivos o ingresos con gastos a menos que así lo requiera o permita una NIIF.
+          p.mb-0(numero="5" titulo="Compensación") Una entidad no compensará activos con pasivos o ingresos con gastos a menos que así lo requiera o permita una NIIF.
 
-          p.text-small.mb-0(numero="6" titulo="Información comparativa") se realiza el análisis con respecto al periodo anterior. Debe incluir tanto datos cuantitativos como información cualitativa. 
+          p.mb-0(numero="6" titulo="Información comparativa") Se realiza el análisis con respecto al periodo anterior. Debe incluir tanto datos cuantitativos como información cualitativa. 
 
-          p.text-small.mb-0(numero="7" titulo="Uniformidad") hace referencia a la aplicación de normas, políticas y principios en el reconocimiento de hechos económicos.
+          p.mb-0(numero="7" titulo="Uniformidad") Hace referencia a la aplicación de normas, políticas y principios en el reconocimiento de hechos económicos.
 
-    .row.align-items-center.mb-4
-      .col-md-6
-        .cajon.color-primario.p-4.mb-4
-          h3.mb-0 La Norma Internacional de Contabilidad (NIC) 1 Presentación de Estados Financieros (CTCP, 2020), indica lo siguiente:
-      .col-md-6
-        h4 Ojetivo
-        p.mb-0 Esta norma establece las bases de la presentación de los estados financieros de propósito general, para asegurar que los mismos sean comparables, tanto con los estados financieros de la misma entidad correspondientes a periodos anteriores, como con los de otras entidades. Se establecen requerimientos generales con miras a la presentación de los estados financieros, guías para determinar su estructura y requisitos mínimos sobre su contenido. 
+    h3.mb-4 La Norma Internacional de Contabilidad (NIC) 1 Presentación de Estados Financieros (CTCP, 2020), indica lo siguiente:
+
+    .cajon.color-primario.p-4.mb-5
+      .row.justify-content-center.align-items-center
+        .col-md.mb-4.mb-md-0
+          h5 Objetivo
+          p.mb-0 Esta norma establece las bases de la presentación de los estados financieros de propósito general, para asegurar que los mismos sean comparables, tanto con los estados financieros de la misma entidad correspondientes a periodos anteriores, como con los de otras entidades. Se establecen requerimientos generales con miras a la presentación de los estados financieros, guías para determinar su estructura y requisitos mínimos sobre su contenido. 
+
+        .col-6.col-md-3
+           img(src="@/assets/curso/intro-04.svg", alt="Texto que describa la imagen")
 
     h4.titulo-cuarto Alcance
 
@@ -89,7 +92,7 @@
 
     p Esta norma no es pertinente para la estructura y contenido de los estados financieros intermedios condensados que se elaboren de acuerdo con la NIC 34 Información Financiera Intermedia; sin embargo, los párrafos 15 a 35 se aplicarán a estos estados financieros. Esta NIC 1 se usará de la misma forma en todas las entidades, incluyendo las que presentan estados financieros consolidados de acuerdo con la NIIF 10 Estados Financieros Consolidados y las que presentan estados financieros separados, de acuerdo con la NIC 27 Estados Financieros Separados.
     
-    img.d-inline.img-text-02.ms-4.mt-4(src="@/assets/curso/intro-04.svg", alt="Texto que describa la imagen")
+    img.d-inline.img-text-02.ms-4.mt-4(src="@/assets/curso/intro-06.svg", alt="Texto que describa la imagen")
     
     p.mb-4 Además, dicha norma utiliza terminología propia de las entidades con ánimo de lucro, incluyendo las pertenecientes al sector público. Si las entidades con actividades sin fines de lucro del sector privado o del sector público aplican esta, podrían verse obligadas a modificar las descripciones utilizadas para partidas específicas de los estados financieros, e incluso para éstos. 
      br
@@ -97,13 +100,9 @@
      | Similarmente, las entidades que carecen de patrimonio, tal como se define en la NIC 32 Instrumentos Financieros: Presentación (por ejemplo, algunos fondos de inversión colectiva), y las entidades cuyo capital en acciones no es patrimonio (por ejemplo, algunas entidades cooperativas) podrían tener la necesidad de adaptar la presentación en los estados financieros de las participaciones de sus miembros o participantes.
 
     .cajon.color-primario.p-4
-      .row.align-items-center.justify-content-around
-        .col-6.col-sm-3.col-md-2.mb-4.mb-sm-0
-          img(src="@/assets/curso/intro-06.svg", alt="Texto que describa la imagen")
-        .col-sm-9
-          p.mb-0
-            b Nota aclaratoria: 
-            | las tablas que se toman como referencia en los ejemplos en cada uno de los temas desarrollados, elaboradas mediante el programa Excel, son derivadas de los mismos, por lo tanto, no se numeran y la elaboración es propia, salvo donde se indique lo contrario.
+      p.mb-0
+        b Nota aclaratoria: 
+        | las tablas que se toman como referencia en los ejemplos en cada uno de los temas desarrollados, elaboradas mediante el programa Excel, son derivadas de los mismos, por lo tanto, no se numeran y la elaboración es propia, salvo donde se indique lo contrario.
 
 </template>
 
