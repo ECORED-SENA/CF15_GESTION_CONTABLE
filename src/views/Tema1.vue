@@ -64,7 +64,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-01.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small Nombre de la empresa o razón social y los cambios presentados en el periodo anterior respecto a dicha información.
+            p.mb-0.text-center Nombre de la empresa o razón social y los cambios presentados en el periodo anterior respecto a dicha información.
 
       .col-sm-6.col-md-4.col-xl.mb-4
         .tarjeta-b.color-gris
@@ -73,7 +73,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-02.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small Expresar si el estado financiero pertenece a una entidad individual o a un grupo.
+            p.mb-0.text-center Expresar si el estado financiero pertenece a una entidad individual o a un grupo.
 
       .col-sm-6.col-md-4.col-xl.mb-4
         .tarjeta-b.color-gris
@@ -82,7 +82,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-03.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small Fecha del cierre del periodo sobre el que se informa.
+            p.mb-0.text-center Fecha del cierre del periodo sobre el que se informa.
 
       .col-sm-6.col-md-4.col-xl.mb-4
         .tarjeta-b.color-gris
@@ -91,7 +91,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-04.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small Moneda de presentación de acuerdo con las bases establecidas en la NIC 21.
+            p.mb-0.text-center Moneda de presentación de acuerdo con las bases establecidas en la NIC 21.
 
       .col-sm-6.col-md-4.col-xl.mb-4
         .tarjeta-b.color-gris
@@ -100,7 +100,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-05.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small El nivel de redondeo de las cifras de los estados financieros en millones y miles de pesos.
+            p.mb-0.text-center El nivel de redondeo de las cifras de los estados financieros en millones y miles de pesos.
 
     Separador
 
@@ -222,7 +222,7 @@
             div(titulo="B")
               p.mb-0 Nuevas mediciones de los planes de beneficios definidos (véase la NIC 19 Beneficios a los Empleados).
             div(titulo="C")
-              p.mb-0 Ganancias y pérdidas producidas por la conversión de los estados financieros de un negocio en el extranjero (véase la NIC 21 Efectos de la Variación en las Tasas de Cambio de la Moneda Extranjera)'.
+              p.mb-0 Ganancias y pérdidas producidas por la conversión de los estados financieros de un negocio en el extranjero (véase la NIC 21 Efectos de la Variación en las Tasas de Cambio de la Moneda Extranjera).
             div(titulo="D")
               p.mb-0 Las ganancias y pérdidas procedentes de inversiones en instrumentos de patrimonio designados a valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 5.7.5 de la NIIF 9 Instrumentos Financieros; (da) las ganancias y pérdidas sobre activos financieros medidos al valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 4.1.2A de la NIIF 9.
             div(titulo="E")
@@ -458,7 +458,7 @@
 
               li 
                 i.fas.fa-chevron-right
-                | Firma del Contador Público con número de la tarjeta profesional T.P - T (titulado) o A (aceptado); los últimos son personas que estudian y luego se presentan a la junta central de contadores para desarrollar un exámen (personas empíricas) y,
+                | Firma del Contador Público con número de la tarjeta profesional T.P. - T (titulado) o A (aceptado); los últimos son personas que estudian y luego se presentan a la Junta Central de Contadores para desarrollar un examen (personas empíricas) y,
 
               li 
                 i.fas.fa-chevron-right

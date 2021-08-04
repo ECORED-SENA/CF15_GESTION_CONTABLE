@@ -355,7 +355,7 @@ export default {
     {
       termino: 'International Accounting Standard - IAS',
       significado:
-        'norma Internacional de Contabilidad, fueron todas las normas de Contabilidad emitidas por el Comité de Normas Internacionales de Contabilidad.',
+        ' Norma Internacional de Contabilidad, fueron todas las normas de Contabilidad emitidas por el Comité de Normas Internacionales de Contabilidad.',
     },
     {
       termino: 'International Accounting Standards Board - IASB',
@@ -365,7 +365,7 @@ export default {
     {
       termino: 'International Accounting Standards Committee - IASC',
       significado:
-        'en español es el Comité de Normas Internacionales de Contabilidad, creado en Londres en 1973 con el fin de estudiar y proponer normas internacionales de Información financiera internacionales y con el apoyo de 9 países (Australia, Canadá, Francia, Alemania, Japón, México, Países Bajos, Reino Unido y Estados Unidos) aunque Estados Unidos fue el único miembro de los países fundadores que decidió no utilizar las normas emitidas por el IASC en un principio.',
+        'en español es el Comité de Normas Internacionales de Contabilidad, creado en Londres en 1973 con el fin de estudiar y proponer normas internacionales de información financiera internacionales y con el apoyo de 9 países (Australia, Canadá, Francia, Alemania, Japón, México, Países Bajos, Reino Unido y Estados Unidos) aunque Estados Unidos fue el único miembro de los países fundadores que decidió no utilizar las normas emitidas por el IASC en un principio.',
     },
     {
       termino: 'International Accounting Education Standard Board - IAESB',
@@ -396,7 +396,7 @@ export default {
   complementario: [
     {
       texto:
-        'Estados financieros de propósito general.<br> Servicio Nacional de Aprendizaje, SENA. (2018). Revista Finnova: Investigación e Innovación Financiera y Organizacional.',
+        'Servicio Nacional de Aprendizaje, SENA. (2018). Revista Finnova: Investigación e Innovación Financiera y Organizacional.',
       tipo: 'PDF',
       link: 'downloads/finnova-v4-n6 .pdf',
     },

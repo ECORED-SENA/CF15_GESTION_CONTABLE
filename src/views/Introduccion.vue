@@ -69,7 +69,7 @@
 
           p.mb-0(numero="7" titulo="Uniformidad") Hace referencia a la aplicación de normas, políticas y principios en el reconocimiento de hechos económicos.
 
-    h3.mb-4 La Norma Internacional de Contabilidad (NIC) 1 Presentación de Estados Financieros (CTCP, 2020), indica lo siguiente:
+    p.mb-4 La Norma Internacional de Contabilidad (NIC) 1 Presentación de Estados Financieros (CTCP, 2020), indica lo siguiente:
 
     .cajon.color-primario.p-4.mb-5
       .row.justify-content-center.align-items-center
@@ -92,14 +92,14 @@
 
     p Esta norma no es pertinente para la estructura y contenido de los estados financieros intermedios condensados que se elaboren de acuerdo con la NIC 34 Información Financiera Intermedia; sin embargo, los párrafos 15 a 35 se aplicarán a estos estados financieros. Esta NIC 1 se usará de la misma forma en todas las entidades, incluyendo las que presentan estados financieros consolidados de acuerdo con la NIIF 10 Estados Financieros Consolidados y las que presentan estados financieros separados, de acuerdo con la NIC 27 Estados Financieros Separados.
     
-    img.d-inline.img-text-02.ms-4.mt-4(src="@/assets/curso/intro-06.svg", alt="Texto que describa la imagen")
+    img.d-inline.img-text-02.ms-4.mt-4( style="width:20%" src="@/assets/curso/intro-06.svg", alt="Texto que describa la imagen")
     
     p.mb-4 Además, dicha norma utiliza terminología propia de las entidades con ánimo de lucro, incluyendo las pertenecientes al sector público. Si las entidades con actividades sin fines de lucro del sector privado o del sector público aplican esta, podrían verse obligadas a modificar las descripciones utilizadas para partidas específicas de los estados financieros, e incluso para éstos. 
      br
      br
      | Similarmente, las entidades que carecen de patrimonio, tal como se define en la NIC 32 Instrumentos Financieros: Presentación (por ejemplo, algunos fondos de inversión colectiva), y las entidades cuyo capital en acciones no es patrimonio (por ejemplo, algunas entidades cooperativas) podrían tener la necesidad de adaptar la presentación en los estados financieros de las participaciones de sus miembros o participantes.
 
-    .cajon.color-primario.p-4
+    .cajon.color-primario.p-5
       p.mb-0
         b Nota aclaratoria: 
         | las tablas que se toman como referencia en los ejemplos en cada uno de los temas desarrollados, elaboradas mediante el programa Excel, son derivadas de los mismos, por lo tanto, no se numeran y la elaboración es propia, salvo donde se indique lo contrario.

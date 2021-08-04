@@ -17,7 +17,7 @@
       .col-6.col-md-3.mb-4.mb-md-0
         img(src="@/assets/curso/t5-01.svg", alt="Texto que describa la imagen")
       .col-md
-        h3.mb-4 De acuerdo con la NIC 1 (CTCP, 2020):
+        p.mb-4 De acuerdo con la NIC 1 (CTCP, 2020):
         ol.lista-ol--cuadro
           li
             .lista-ol--cuadro__vineta
@@ -34,7 +34,7 @@
 
     .row.justify-content-center.mb-5
       .col-md.mb-4.mb-md-0
-        h3.mb-4 La NIC 1 (CTCP, 2020), presenta ejemplos del orden de las notas teniendo en cuenta:
+        p.mb-4 La NIC 1 (CTCP, 2020), presenta ejemplos del orden de las notas teniendo en cuenta:
         ol.lista-ol--cuadro
           li
             .lista-ol--cuadro__vineta
@@ -123,7 +123,7 @@
           img(src="@/assets/curso/t5-07.svg", alt="Texto que describa la imagen")
         .col-md
           p.mb-4 En esta nota se incluyen los conceptos de efectivo correspondientes al dinero en caja (general y menor) y los depósitos en cuentas bancarias, nacionales y/o extranjeras. 
-          .cajon.color-acento-contenido.p-4
+          .cajon.color-acento-contenido.p-4.mb-4
             p.mb-0 Adicionalmente, incluye el efectivo y los equivalentes al efectivo, representados en inversiones menores a 90 días, como pueden ser los CDT, acciones, bonos.
           h3 Ejemplo:
           p El siguiente es el detalle a 31 de diciembre de 20__ (presente año) vs. 20_(año anterior).

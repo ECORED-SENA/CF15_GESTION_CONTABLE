@@ -58,7 +58,7 @@
                 .anexo__texto
                   p.text-small
                     b Anexo. 
-                    | Estado de Flujos de Efectivo 1.
+                    | Estado de Flujos de Efectivo.
 
     Separador
 
@@ -102,7 +102,7 @@
           .tarjeta-b__content.px-4.pb-3
             .tarjeta-b__content__img.tarjeta-b__content__img--lg
               img(src='@/assets/curso/t4-ico-01.svg' alt='Texto que describa la imagen')
-            p.mb-0.text-center.text-small 
+            p.mb-0.text-center
               b 25. 
               | Los flujos de efectivo procedentes de transacciones en moneda extranjera se convertirán a la moneda funcional de la entidad aplicando al importe en moneda extranjera la tasa de cambio entre ambas monedas en la fecha en que se produjo cada flujo en cuestión. 
 
@@ -113,7 +113,7 @@
           .tarjeta-b__content.px-4.pb-3
             .tarjeta-b__content__img.tarjeta-b__content__img--lg
               img(src='@/assets/curso/t4-ico-02.svg' alt='Texto que describa la imagen')
-            p.mb-0.text-center.text-small 
+            p.mb-0.text-center
               b 26. 
               | Los flujos de efectivo de una subsidiaria extranjera se convertirán utilizando la tasa de cambio entre la moneda funcional y la moneda extranjera, en la fecha en que se produjo cada flujo en cuestión. 
 
@@ -124,7 +124,7 @@
           .tarjeta-b__content.px-4.pb-3
             .tarjeta-b__content__img.tarjeta-b__content__img--lg
               img(src='@/assets/curso/t4-ico-03.svg' alt='Texto que describa la imagen')
-            p.mb-0.text-center.text-small 
+            p.mb-0.text-center
               b 27. 
               | Los flujos de efectivo en moneda extranjera se presentarán de acuerdo con la NIC 21 Efectos de las Variaciones en las Tasas de Cambio de la Moneda Extranjera.
 
@@ -320,8 +320,8 @@
     .row.justify-content-end
       .col-lg-10
         LineaTiempoD.color-acento-contenido.mb-5
-          .p-3(numero="1" titulo="Paso 1")
-            h3.mb-5 En los estados financieros se presenta la siguiente información de las actividades de operación:
+          .p-3(numero="1" titulo="En los estados financieros se presenta la siguiente información de las actividades de operación:")
+            //- h3.mb-5 En los estados financieros se presenta la siguiente información de las actividades de operación:
             .row.justify-content-center.mb-5
               .col-md-10
                 img(src="@/assets/curso/t4-tabla-01.svg", alt="Texto que describa la imagen")
@@ -359,7 +359,7 @@
                   .tarjeta-b__content.px-4.p-3
                     .tarjeta-b__content__img.mb-3
                       img(src='@/assets/curso/t4-ico-04.svg' alt='Texto que describa la imagen')
-                    p.mb-0.text-center.text-small Se registra el valor de los ingresos.
+                    p.mb-0.text-center Se registra el valor de los ingresos.
 
               .col-sm-6.col-md-4.mb-4
                 .tarjeta-b.color-gris
@@ -368,7 +368,7 @@
                   .tarjeta-b__content.px-4.p-3
                     .tarjeta-b__content__img.mb-3
                       img(src='@/assets/curso/t4-ico-05.svg' alt='Texto que describa la imagen')
-                    p.mb-0.text-center.text-small Se suman el valor de clientes del año 1.
+                    p.mb-0.text-center Se suman el valor de clientes del año 1.
 
               .col-sm-6.col-md-4.mb-4
                 .tarjeta-b.color-gris
@@ -377,7 +377,7 @@
                   .tarjeta-b__content.px-4.p-3
                     .tarjeta-b__content__img.mb-3
                       img(src='@/assets/curso/t4-ico-06.svg' alt='Texto que describa la imagen')
-                    p.mb-0.text-center.text-small Se resta el valor de clientes del año 2.
+                    p.mb-0.text-center Se resta el valor de clientes del año 2.
             
             .row.justify-content-center.mb-5
               .col-md-8
@@ -386,8 +386,7 @@
             .cajon.color-acento-contenido.p-4
               p.mb-0 El proceso anterior aplica para las actividades de operación por el método directo. Por tanto, se debe verificar la información suministrada en los estados financieros y determinar las respectivas variaciones de cada una de las cuentas presentadas.
 
-          .p-3(numero="2" titulo="Paso 2")
-            h3.mb-5 Para calcular las actividades de inversión se presenta la siguiente información:
+          .p-3(numero="2" titulo="Para calcular las actividades de inversión se presenta la siguiente información:")
             .row.justify-content-center.mb-5
               .col-md-8
                 img(src="@/assets/curso/t4-tabla-02.svg", alt="Texto que describa la imagen")
@@ -395,9 +394,7 @@
             .cajon.color-acento-contenido.p-4
               p.mb-0 Los valores relacionados anteriormente se obtienen de la diferencia entre al año 1 y 2 del estado de situación financiera y las notas, donde se observa los conceptos que implican entradas y salidas de dinero por concepto de inversiones. 
 
-          .p-3(numero="3" titulo="Paso 3")
-            h3.mb-5 Luego, se determinan las variaciones de las actividades de financiación, relacionadas con el capital y obligaciones financieras. Para ello, se presenta la siguiente información:
-            
+          .p-3(numero="3" titulo="Luego, se determinan las variaciones de las actividades de financiación, relacionadas con el capital y obligaciones financieras. Para ello, se presenta la siguiente información:")
             .row.justify-content-center.mb-5
               .col-md-8
                 img(src="@/assets/curso/t4-tabla-03.svg", alt="Texto que describa la imagen")
@@ -406,9 +403,7 @@
               p.mb-0 Para calcular los saldos anteriores, se revisaron los estados financieros y las notas, con el fin de determinar los aumentos y disminuciones de las cuentas involucradas en las actividades de financiación.
 
 
-          .p-3(numero="4" titulo="Paso 4")
-            h3.mb-5 Para comprobar que el estado de flujos de efectivo se haya realizado correctamente es importante revisar el efectivo y los equivalentes de efectivo de los dos años, con el fin de constatar con el efectivo generado en el estado de flujos de efectivo.
-            
+          .p-3(numero="4" titulo="Para comprobar que el estado de flujos de efectivo se haya realizado correctamente es importante revisar el efectivo y los equivalentes de efectivo de los dos años, con el fin de constatar con el efectivo generado en el estado de flujos de efectivo.")
             img.mb-5(src="@/assets/curso/t4-tabla-04.svg", alt="Texto que describa la imagen")
 
             .cajon.color-acento-contenido.p-4

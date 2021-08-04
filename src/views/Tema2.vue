@@ -37,7 +37,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-01.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small Nombre de la empresa o razón social y los cambios presentados en el periodo anterior respecto a dicha información.
+            p.mb-0.text-center Nombre de la empresa o razón social y los cambios presentados en el periodo anterior respecto a dicha información.
 
       .col-sm-6.col-md-4.col-xl.mb-4
         .tarjeta-b.color-gris
@@ -46,7 +46,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-02.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small Expresar si el estado financiero pertenece a una entidad individual o a un grupo.
+            p.mb-0.text-center Expresar si el estado financiero pertenece a una entidad individual o a un grupo.
 
       .col-sm-6.col-md-4.col-xl.mb-4
         .tarjeta-b.color-gris
@@ -55,7 +55,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-03.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small Fecha del cierre del periodo sobre el que se informa.
+            p.mb-0.text-center Fecha del cierre del periodo sobre el que se informa.
 
       .col-sm-6.col-md-4.col-xl.mb-4
         .tarjeta-b.color-gris
@@ -64,7 +64,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-04.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small Moneda de presentación de acuerdo con las bases establecidas en la NIC 21.
+            p.mb-0.text-center Moneda de presentación de acuerdo con las bases establecidas en la NIC 21.
 
       .col-sm-6.col-md-4.col-xl.mb-4
         .tarjeta-b.color-gris
@@ -73,7 +73,7 @@
           .tarjeta-b__content.px-4.py-3
             .tarjeta-b__content__img.mb-3
               img(src='@/assets/curso/t1-ico-05.svg' alt='Texto que describa la imagen' style="max-width: 80px")
-            p.mb-0.text-center.text-small El nivel de redondeo de las cifras de los estados financieros en millones y miles de pesos. (Norma Internacional de Contabilidad (NIC) 1).
+            p.mb-0.text-center El nivel de redondeo de las cifras de los estados financieros en millones y miles de pesos. (Norma Internacional de Contabilidad (NIC) 1).
 
     Separador
 
@@ -415,7 +415,7 @@
             | Firma del Representante Legal.
           li 
             i.fas.fa-chevron-right
-            | Firma del Contador Público con número de la tarjeta profesional TP N°.__ T (titulado) o A (aceptado) son personas que estudian y luego se presentan a la junta central de contadores para desarrollar un examen (son para personas empíricas) y,
+            | Firma del Contador Público con número de la tarjeta profesional T.P. N°.__ T (titulado) o A (aceptado) son personas que estudian y luego se presentan a la Junta Central de Contadores para desarrollar un examen (son para personas empíricas) y,
           li 
             i.fas.fa-chevron-right
             | Firma de Revisor Fiscal con número de tarjeta profesional, quien da fe pública de las cifras allí registradas en los Estados Financieros en este caso el Estado de Resultado Integral, emitiendo un dictamen. Acogiéndose a las normas colombianas: Ley 222 de 1995, artículos 37 y 38 y el Decreto 2649 de 1993, artículo 33.
@@ -503,7 +503,7 @@
             | Las provisiones, teniendo en cuenta separar los beneficios a empleado de los demás.
           li 
             i.fas.fa-chevron-right
-            | El capital, reservas y primas de emisión (NIC 1.78).
+            | El capital, reservas y primas de emisión (NIC 1 .78).
 
       .col-6.col-md-3
         img(src="@/assets/curso/t2-11.svg", alt="Texto que describa la imagen")
