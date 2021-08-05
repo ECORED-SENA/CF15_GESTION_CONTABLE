@@ -493,10 +493,16 @@
         h5 Parte jurídica
         p.mb-0 En la presentación de esta sección, se tiene en cuenta la parte jurídica acorde con los lineamientos del Código de Comercio, asimismo con la Ley 222 de 1995, específicamente en los artículos 37 y 38. 
 
+    .row.justify-content-center.mb-5
+      .col-md-9.col-lg-8
+        h5 Ejemplo:
+        figure
+          img(src="@/assets/curso/t1-tabla-04.svg", alt="Texto que describa la imagen")
+          figcaption.mt-1 Nota. Tomada de Estupiñán (2017)
 
     h3.mb-4 Estado de resultado integral por función de los gastos
+    
     p.mb-4 De acuerdo con las Normas Internacionales de Información Financiera (NIIF), este método presenta de forma discriminada en el ámbito local (Colombia) los ingresos ordinarios, costos de venta y costos de administración. De igual forma, se presentan los ingresos financieros, los gastos financieros, las diferencias de cambio en moneda extranjera, revelando así los registros contables que hacen parte de este estado de resultado integral por función.
-
   
     .row.justify-content-center.align-items-center.mb-4
       .col-6.col-md-4.mb-4.mb-md-0
@@ -505,17 +511,23 @@
         .cajon.color-primario.p-4.h-100.mb-4
           p.mb-0 Para esto se considera la dimensión jurídica acorde con los lineamientos del Código de Comercio (Congreso de la República de Colombia, 2020).
 
-        p.mb-0 Para realizar el estado de resultados es importante haber surtido el proceso del ciclo contable, donde se tiene en cuenta: el registro de los hechos económicos con base a los soportes contables originados en la transacción, seguidamente el registro en los libros de contabilidad, el balance de comprobación, ajustes y, finalmente, el comprobante de cierre para empezar a elaborar los estados financieros.
+        p.mb-4 Para realizar el estado de resultados es importante haber surtido el proceso del ciclo contable, donde se tiene en cuenta: el registro de los hechos económicos con base a los soportes contables originados en la transacción, seguidamente el registro en los libros de contabilidad, el balance de comprobación, ajustes y, finalmente, el comprobante de cierre para empezar a elaborar los estados financieros.
           br
           br
           | El primer estado que se debe elaborar es el estado de resultados, teniendo en cuenta los saldos presentados en las cuentas de ingresos, gastos y costos y la estructura elegida para su presentación. Al final se obtiene el resultado, que puede ser ganancia o pérdida.
     
-    .row.justify-content-center
-      .col-md-9.col-lg-8
-        h5 Ejemplo:
-        figure
-          img(src="@/assets/curso/t1-tabla-04.svg", alt="Texto que describa la imagen")
-          figcaption.mt-1 Nota. Tomada de Estupiñán (2017)
+        .cajon.color-acento-contenido.p-4
+          p En el siguiente anexo podrá ver la 
+            b estructura general del estado de resultados por función de los gastos.
+          .text-end
+            .d-inline-block
+              a.anexo.shadow-sm(:href="obtenerLink('/downloads/estructura-general-estado-funcion.xls')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-xls.svg")
+                .anexo__texto
+                  p.text-small
+                    b Anexo. 
+                    | Estado de resultados por función de los gastos.
 
     Separador
 
