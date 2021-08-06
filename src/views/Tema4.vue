@@ -404,7 +404,10 @@
 
 
           .p-3(numero="4" titulo="Para comprobar que el estado de flujos de efectivo se haya realizado correctamente es importante revisar el efectivo y los equivalentes de efectivo de los dos años, con el fin de constatar con el efectivo generado en el estado de flujos de efectivo.")
-            img.mb-5(src="@/assets/curso/t4-tabla-04.svg", alt="Texto que describa la imagen")
+            
+            .row.justify-content-center.mb-5
+              .col-md-8
+                img(src="@/assets/curso/t4-tabla-04.svg", alt="Texto que describa la imagen")
 
             .cajon.color-acento-contenido.p-4
               p.mb-3 A continuación, observa un ejemplo por el método directo, donde se presenta la estructura y variaciones de las actividades de operación, inversión y financiación.

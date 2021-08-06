@@ -503,7 +503,7 @@
             | Las provisiones, teniendo en cuenta separar los beneficios a empleado de los demás.
           li 
             i.fas.fa-chevron-right
-            | El capital, reservas y primas de emisión (NIC 1 .78).
+            | El capital, reservas y primas de emisión (NIC 1. 78).
 
       .col-6.col-md-3
         img(src="@/assets/curso/t2-11.svg", alt="Texto que describa la imagen")

@@ -611,13 +611,13 @@
               li.mb-0
                 .lista-ol--cuadro__vineta
                   span b
-                | Según este método de clasificación, los gastos se agruparán de acuerdo con su función como parte del costo de las ventas o, por ejemplo, de los costos de actividades de distribución o administración. Como mínimo una entidad revelará, según este método, su costo de ventas de forma separada de otros gastos (NIC NIIF, 2020).
-                br
-                br
-                | Una entidad revelará el importe del impuesto a las ganancias relativo a cada partida de otro resultado integral, incluyendo los ajustes por reclasificación, en el estado del resultado del periodo y otro resultado integral o en las notas (CTCP, 2020).
-                br
-                br
-                | De igual manera, las revelaciones que se presentarán de forma separada son (CTCP, 2020):
+                p Según este método de clasificación, los gastos se agruparán de acuerdo con su función como parte del costo de las ventas o, por ejemplo, de los costos de actividades de distribución o administración. Como mínimo una entidad revelará, según este método, su costo de ventas de forma separada de otros gastos (NIC NIIF, 2020).
+                  br
+                  br
+                  | Una entidad revelará el importe del impuesto a las ganancias relativo a cada partida de otro resultado integral, incluyendo los ajustes por reclasificación, en el estado del resultado del periodo y otro resultado integral o en las notas (CTCP, 2020).
+                  br
+                  br
+                  | De igual manera, las revelaciones que se presentarán de forma separada son (CTCP, 2020):
             ul.lista-ul--color.ps-5.mb-4
               li 
                 i.fas.fa-chevron-right

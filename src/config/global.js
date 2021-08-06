@@ -385,7 +385,7 @@ export default {
     {
       termino: 'NIIF',
       significado:
-        ' Norma Internacional de Información Financiera, es la equivalencia de la sigla en inglés IFRS (International Financial Reporting Estandard).',
+        ' Norma Internacional de Información Financiera, es la equivalencia de la sigla en inglés IFRS (International Financial Reporting Standard).',
     },
     {
       termino: 'Pasivo corriente',
