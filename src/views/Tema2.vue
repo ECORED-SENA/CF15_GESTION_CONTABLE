@@ -437,7 +437,7 @@
 
             .text-end
               .d-inline-block
-                a.anexo.shadow-sm(:href="obtenerLink('/downloads/presentacion-por-liquidez.xls')" target="_blank")
+                a.anexo.shadow-sm(:href="obtenerLink('downloads/presentacion-por-liquidez.xls')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-xls.svg")
                   .anexo__texto
@@ -453,7 +453,7 @@
 
             .text-end
               .d-inline-block.mb-4
-                a.anexo.shadow-sm(:href="obtenerLink('/downloads/presentacion-por-solvencia.xls')" target="_blank")
+                a.anexo.shadow-sm(:href="obtenerLink('downloads/presentacion-por-solvencia.xls')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-xls.svg")
                   .anexo__texto
@@ -471,7 +471,7 @@
 
             .text-end
               .d-inline-block
-                a.anexo.shadow-sm(:href="obtenerLink('/downloads/ejemplo-estado-situacion-financiera.xls')" target="_blank")
+                a.anexo.shadow-sm(:href="obtenerLink('downloads/ejemplo-estado-situacion-financiera.xls')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-xls.svg")
                   .anexo__texto

@@ -173,7 +173,7 @@
           p.mb-3 Las empresas presentarán del estado de cambio en el patrimonio neto comparado a los usuarios internos y/o externos según el caso: 
           .text-end
             .d-inline-block
-              a.anexo.shadow-sm(:href="obtenerLink('/downloads/estructura-estado-cambio-patrimonio.xls')" target="_blank")
+              a.anexo.shadow-sm(:href="obtenerLink('downloads/estructura-estado-cambio-patrimonio.xls')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-xls.svg")
                 .anexo__texto

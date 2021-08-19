@@ -125,8 +125,8 @@
         .col-lg-9.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
             p Denominado también como 
-            b hipótesis de empresa en funcionamiento. 
-            | Este es un principio del marco conceptual bajo las Normas Internacionales de Información Financiera (NIIF), el cual hace referencia a la continuidad de la empresa. Su intención en ningún momento es liquidar o recortar la escala de sus operaciones. Es importante recalcar que en Colombia desde el mismo momento que se registra una empresa en la Cámara de Comercio o en notaría se estipula cuándo inicia y cuándo termina sus actividades, en dado caso que se haya registrado una fecha de vigencia puede ser prorrogable en el tiempo (NIC/NIIF, 2020).
+              b hipótesis de empresa en funcionamiento. 
+              | Este es un principio del marco conceptual bajo las Normas Internacionales de Información Financiera (NIIF), el cual hace referencia a la continuidad de la empresa. Su intención en ningún momento es liquidar o recortar la escala de sus operaciones. Es importante recalcar que en Colombia desde el mismo momento que se registra una empresa en la Cámara de Comercio o en notaría se estipula cuándo inicia y cuándo termina sus actividades, en dado caso que se haya registrado una fecha de vigencia puede ser prorrogable en el tiempo (NIC/NIIF, 2020).
         .col-md-2
           img(src="@/assets/curso/t1-06.svg", alt="Texto que describa la imagen")
 
@@ -237,7 +237,7 @@
       .col-6.col-lg-4
         img.mb-4(src="@/assets/curso/t1-10.svg", alt="Texto que describa la imagen")
 
-        a.anexo(:href="obtenerLink('/downloads/tabla-resultado-integral-ORI.xls')" target="_blank")
+        a.anexo(:href="obtenerLink('downloads/tabla-resultado-integral-ORI.xls')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-xls.svg")
           .anexo__texto
@@ -439,7 +439,7 @@
                 
             .row.justify-content-end
               .col-md-6
-                a.anexo(:href="obtenerLink('/downloads/estructura-general-estado.xls')" target="_blank")
+                a.anexo(:href="obtenerLink('downloads/estructura-general-estado.xls')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-xls.svg")
                   .anexo__texto
@@ -482,7 +482,7 @@
             b estructura general del estado de resultados por naturaleza de los gastos.
           .text-end
             .d-inline-block
-              a.anexo.shadow-sm(:href="obtenerLink('/downloads/estructura-general-estado.xls')" target="_blank")
+              a.anexo.shadow-sm(:href="obtenerLink('downloads/estructura-general-estado.xls')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-xls.svg")
                 .anexo__texto
@@ -521,7 +521,7 @@
             b estructura general del estado de resultados por función de los gastos.
           .text-end
             .d-inline-block
-              a.anexo.shadow-sm(:href="obtenerLink('/downloads/estructura-general-estado-funcion.xls')" target="_blank")
+              a.anexo.shadow-sm(:href="obtenerLink('downloads/estructura-general-estado-funcion.xls')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-xls.svg")
                 .anexo__texto
@@ -646,7 +646,7 @@
               br
               | Así mismo, revisar:
 
-            a.anexo(:href="obtenerLink('/downloads/NIC-1-presentacion-estados-financieros.pdf')" target="_blank")
+            a.anexo(:href="obtenerLink('downloads/NIC-1-presentacion-estados-financieros.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

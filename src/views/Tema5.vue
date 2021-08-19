@@ -139,7 +139,7 @@
 
             .text-end
               .d-inline-block
-                a.anexo.shadow-sm(:href="obtenerLink('/downloads/presentacion-estados-financieros.pdf')" target="_blank")
+                a.anexo.shadow-sm(:href="obtenerLink('downloads/presentacion-estados-financieros.pdf')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto

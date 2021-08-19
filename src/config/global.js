@@ -398,7 +398,7 @@ export default {
       texto:
         'Servicio Nacional de Aprendizaje, SENA. (2018). Revista Finnova: Investigación e Innovación Financiera y Organizacional.',
       tipo: 'PDF',
-      link: 'downloads/finnova-v4-n6 .pdf',
+      link: 'downloads/finnova-v4-n6.pdf',
     },
   ],
   creditos: {

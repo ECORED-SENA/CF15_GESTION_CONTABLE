@@ -52,7 +52,7 @@
           p.mb-3 Es importante profundizar la norma, por tanto, se invita a explorar el siguiente enlace de la NIC 7:
           .text-end
             .d-inline-block
-              a.anexo.shadow-sm(:href="obtenerLink('/downloads/norma-internacional-contabilidad-7-estado-flujos-efectivo.pdf')" target="_blank")
+              a.anexo.shadow-sm(:href="obtenerLink('downloads/norma-internacional-contabilidad-7-estado-flujos-efectivo.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -300,7 +300,7 @@
           p.mb-3 A continuación, observa la estructura de cada uno de los métodos analizados anteriormente:
           .text-end
             .d-inline-block
-              a.anexo.shadow-sm(:href="obtenerLink('/downloads/estado-flujos-efectivo-directo-indirecto.xls')" target="_blank")
+              a.anexo.shadow-sm(:href="obtenerLink('downloads/estado-flujos-efectivo-directo-indirecto.xls')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-xls.svg")
                 .anexo__texto
@@ -414,7 +414,7 @@
 
               .text-end
                 .d-inline-block
-                  a.anexo.shadow-sm(:href="obtenerLink('/downloads/estados-flujo.xls')" target="_blank")
+                  a.anexo.shadow-sm(:href="obtenerLink('downloads/estados-flujo.xls')" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-xls.svg")
                     .anexo__texto
